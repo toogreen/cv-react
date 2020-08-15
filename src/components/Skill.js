@@ -9,9 +9,7 @@ function Skill(props) {
                 <h3>{props.name}</h3>
             </div>
             <div className="right-column">
-                <p>
-                    {props.desc}
-                </p>
+                <p dangerouslySetInnerHTML={{ __html: props.desc }}></p>
             </div>
         </div>	
 	)

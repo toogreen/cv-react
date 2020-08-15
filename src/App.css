@@ -29,7 +29,7 @@ header{
 }
 
 header p{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .container{
@@ -46,7 +46,7 @@ header p{
 
 .social  {
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 4px;
@@ -80,6 +80,10 @@ header p{
 	border: 1px solid rgba(220,220,220,1);
 	padding: 15px;
 	border-radius: 6px;
+}
+
+.subsection li{
+	margin-bottom: 10px;
 }
 
 #skills .subsection{
