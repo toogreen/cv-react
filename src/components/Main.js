@@ -4,7 +4,7 @@ import SkillsList from "./SkillsList"
 import ProjectsList from "./ProjectsList"
 import ProjectsDb from "./ProjectsDb"
 import { render } from "@testing-library/react"
-import Tabletop from 'tabletop';
+//import Tabletop from 'tabletop';
 
 class Main extends Component {
 
@@ -26,7 +26,7 @@ class Main extends Component {
                 console.log(SkillsDb[0])
             }) */
 
-        Tabletop.init({
+/*         Tabletop.init({
             key: '2PACX-1vTpBf-g6irXcHsacKP8Z3Q1c3w9BlRY6OOyRagrVFyQ9talidbsFXHaWjNsdByFSGwRfJCRUlnsGpj7',
             callback: googleData => {
                 this.setState({
@@ -34,7 +34,7 @@ class Main extends Component {
                 })
               },
               simpleSheet: true
-        })
+        }) */
         
 	}
 
