@@ -107,7 +107,7 @@ class Main extends Component {
             
                         </div>
                         <div id="top-right">
-                            <p><strong>David Gagnon</strong><br />
+                            <p><strong className="nom">David Gagnon</strong><br />
                             550, Jean D'Estrées, apt. 204<br />
                             H3C 6W1, Montréal<br />
                             Home : <a href="tel:438-383-3600"></a>(438) 383-3600<br />
