@@ -1,4 +1,8 @@
 import React from "react"
+import SkillsDb from "./SkillsDb"
+import SkillsList from "./SkillsList"
+import ProjectsList from "./ProjectsList"
+import ProjectsDb from "./ProjectsDb"
 
 function Main(){
     return(
@@ -232,114 +236,9 @@ function Main(){
                 <div className="section" id="skills">
                     <h2>Skills & Qualifications </h2>
         
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>System Administrator </h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Linux/UNIX servers administration. Amazon EC2, LAMP setup, Moodle, Postfix, Courier, Bash scripts, BIND, etc. Nearly 10 years administrating servers and clients in a primary school in Shanghai, including over 3 labs (90+ clients) composed of Linux and Mac OSX machines for students. Managed several file servers (Samba+NFS) as well as a mail server (postfix+courier) and a few web servers (LAMP stack). Always hungry for learning more and improving my knowledgebase, I've recently earned LPI's Linux Essentials certification, and currently working towards getting my LPIC-1 and LPIC-2 certifications as well.
-        
-                            </p>
-                        </div>
-                    </div>	
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Teacher</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                I have been teaching for over 9 years in Shanghai. Taught English then ICT to children aged from 5 to 14 years old. Also gave several trainings to adults on Open Source IT systems such as LibreOffice and Moodle. Having a natural desire to learn and share my up-to-date knowledge, even back when I was a graphic design student, I was asked to assist some of the teachers in giving support to other students and I even helped in preparing and updating some of course contents.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Manager</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Been in charge of coordinating everything ICT between 5 different campuses, as well as providing IT trainings to professional teaching staff coming from around the globe.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Developer</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                I have built several websites and on-line apps in HTML5/CSS3/PHP/MySQL/JavaScript/jQuery. I can do both backend and frontend work but I mostly excel at front-end and CSS, and adapting provided graphical content into HTML5.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>IB Facilitator</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                IB (International Baccalaureate) PYP (Primary Years Programme) ICT Facilitator, attended several ICT & PYP workshops and Job-A-Likes. Expert Moodle trainer and administrator.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Graphic Designer</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                I have designed various website designs, logos as well as printed material.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Lecturer</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Gave a few talks and workshops on promoting the use of Open Source software in Education.
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Visionnaire</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Tend to be gifted at choosing the right sustainable technologies for the long term, can usually predict upcoming trends, and therefore chooses the right technologies that will last.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Blogger, writer</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Been writing weekly articles for Nelson Dumais, Le Magazine (http://www.nelsondumais.com), and some other webzines over the years.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <h3>Bilingual</h3>
-                        </div>
-                        <div className="right-column">
-                            <p>
-                                Native French speaker, fluent in English, also knows some Mandarin Chinese and a tiny bit of Spanish.
-                            </p>
-                        </div>
-                    </div>
+                    <SkillsList
+                        db={SkillsDb}
+                    />
         
                 </div>
         
@@ -392,123 +291,9 @@ function Main(){
                     <h2>Projects</h2>
                     <p>A few projects I worked on, more in details...</p>
         
-        
-                    <div className="subsection grid2">
-                        <div className="right-column">
-                            <h3><a href="https://www.mtversion.ca" target="_blank">www.mtversion.ca</a></h3>
-                            <p>
-                                On a very tight budget, we needed to build a website in the least amount of time as well. Hence I thought why not code it by hand based on a Bootstrap template similar to to what I used for MT>Ventures (See below)? And this is how MT>Version was created. Simple but efficient.
-                            </p>
-                        </div>
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/mtversion.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/mtversion.png" />
-                            </a>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/websites/mtventures.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/websites/mtventures.png" />
-                            </a>
-                        </div>
-                        <div className="right-column">
-                            <h3><a href="https://www.mtventures.ca" target="_blank">www.mtventures.ca</a></h3>
-                            <p>
-                                Similarly to MT Version above, this was also built quickly and on a very tight budget, we needed to build a website in the least amount of time as well. Again, with the help of the design team, I used Bootstrap to quickly get this up and running. 
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid2">
-                        <div className="right-column">
-                            <h3><a href="https://www.softvoyage.com" target="_blank">www.softvoyage.com</a></h3>
-                            <p>
-                                The company needed a major revamp for the main web portal. <br />
-                                I've done most of work behind taking a design idea and turning it into a full blown Wordpress template. 
-                                Used HTML5, CSS3, PHP and jQuery technologies to make everything work as it should.
-                                The website presenting a couple of challenges later on a well, for instance adapting all the PHP templates 
-                                from being simply bilingual (French + English) to a tri-lingual version (added Spanish recently).
-                            </p>
-                        </div>
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/softvoyage.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/softvoyage.png" />
-                            </a>
-                        </div>
-                    </div>
-        
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/avenirmd.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/avenirmd.png" />
-                            </a>
-                            
-                        </div>
-                        <div className="right-column">
-                            <h3><a href="https://www.avenirmd.com" target="_blank">www.avenirmd.com</a></h3>
-                            <p>
-                                This private clinic needed a brand new, better looking Wordpress-based website.
-                                Starting from an exisiting template, I have modified its code heavily using CSS3 and jQuery to add some new features, such as making the main pictures becoming in color when rolling the mouse over them, as well as adding sub-menus and right sidebar, etc.
-                                It was the first time I used jQuery extensively and some interesting CSS3 newer features.
-                            </p>
-                            
-                        </div>				
-                    </div>
-        
-                    <div className="subsection grid2">
-                        <div className="right-column">
-                            <h3><a href="https://www.suis.com.cn" target="_blank">www.suis.com.cn</a></h3>
-                            <p>
-                                Shanghai's « Xiehe Education Group » manages several schools around Shanghai.
-                                I am the one who created their portal, from the installation and configuration of the Linux server, followed by the installation and set up of the Drupal CMS, as well as the graphic signature which I designed by modifying an existing Drupal template. I also added a bit of PHP code for extras.
-                                It's also myself who has put in place their email server as well as the Learning Management System based on the Moodle Open Source software.
-                            </p>
-                        </div>
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/suis.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/suis.png" />
-                            </a>
-                        </div>
-                    </div>
-        
-                    <div className="subsection grid">
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/sad.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/sad.png" />
-                            </a>
-                        </div>
-                        <div className="right-column">
-                            <h3>Students Administration Desk</h3>
-                            <p>
-                                I have extended this in-house developed management system, based on PHP and MySQL by building on top of its original source code. At the time I left, this system was still being used to manage information about students, take daily attendance, set up buses, write comments, etc. My contribution consists in two modules that I created from scratch and integrated into the existing system:
-        
-                                <ol>
-                                    <li>On-line reports web interface which allows teachers to input students' grades, as well as store, view and print reports directly on-line.</li>
-                                    <li>A web interface allowing teachers to input their lesson plans directly on-line and from home, as well as sharing them with other teachers. </li>
-                                </ol>
-                            </p>
-                        </div>				
-                    </div>
-        
-                    <div className="subsection grid2">
-                        <div className="right-column">
-                            <h3>photojournaliste.ca</h3>
-                            <p>
-                                A website I've built in 2003 for a photographer friend which was also based in Shanghai. He needed a website to promote himself and his portfolio. 
-                                This was the very first website in which I used the PHP and MySQL technologies.
-                                Again I've done everything, from scanning the original pictures from film, to graphic design then HTML slicing and PHP, MySQL, HTML, CSS and JavaScript programming. 
-                                Thanks to PHP/MySQL, this website could be easily updated by his owner, for example adding text or photos, without having to do any programming or requiring my assistance.
-                            </p>
-                        </div>
-                        <div className="left-column">
-                            <a href="https://toogreen.ca/cv/img/projects/phil.png" target="_blank">
-                                <img src="https://toogreen.ca/cv/img/projects/phil.png" />
-                            </a>
-                        </div>
-                    </div>
+                    <ProjectsList
+                        db={ProjectsDb}
+                    />
                     
                 </div>
         
