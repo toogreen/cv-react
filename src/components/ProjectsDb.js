@@ -1,5 +1,19 @@
 const ProjectsDb = [
 	{
+		id: -1,
+        name: "www.toogreen.ca/china",
+        url: "http://www.toogreen.ca/china",
+        desc: "An informative website I recently created to denounce censorship from China. I've now converted the whole thing to React.js",
+        img: "http://toogreen.ca/china-static/img/china.png"
+	},
+	{
+		id: 0,
+        name: "www.toogreen.ca/meme",
+        url: "http://www.toogreen.ca/meme",
+        desc: "Recent project I created just for fun while learning React.js",
+        img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/image.png"
+	},
+	{
 		id: 1,
         name: "www.mtversion.ca",
         url: "https://www.mtversion.ca",
