@@ -2,7 +2,7 @@ import React from 'react';
 import Skill from "./Skill"
    
 const SkillsList = (props) => (
-    props.db.map(item => (
+    props.data.map(item => (
         <Skill 
        		key={item.id} 
 		   	name={item.name}

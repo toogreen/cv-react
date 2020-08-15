@@ -8,7 +8,7 @@ function Header(){
 			For a simpler, shorter & printable (PDF) version of this CV,<br /> please click here: <a href="Resume-DavidGagnon-English.pdf" target="_blank">https://toogreen.ca/cv/Resume-DavidGagnon-English.pdf</a>
 		</p>
 
-		<div class="test"></div>
+		<div className="test"></div>
 		
 	</header>
     )
