@@ -16,7 +16,7 @@ const SkillsDb = [
     },
     {
         id: 4,
-        name: "Developer",
+        name: "Web Developer",
         desc: "I have built several websites and on-line apps in HTML5/CSS3/PHP/MySQL/JavaScript/jQuery. I can do both backend and frontend work but I mostly excel at front-end and CSS, and adapting provided graphical content into HTML5."
     },
     {
