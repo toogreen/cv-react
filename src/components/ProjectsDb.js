@@ -3,7 +3,7 @@ const ProjectsDb = [
 		id: -1,
         name: "www.toogreen.ca/china",
         url: "http://www.toogreen.ca/china",
-        desc: "An informative website I recently created to denounce censorship from China. I've now converted the whole thing to React.js. Try resizing the window smaller to see the responsive design in action, as well as the logo chaning to accomodate the mobile width space. This is a great example of what we can do now with modern CSS.",
+        desc: "An informative website I recently created to denounce censorship from China. I've now converted the whole thing to React.js. Try resizing the window smaller to see the responsive design in action, as well as the logo chaning to accomodate the mobile width space. This is a great example of what we can do now with modern CSS. All code from yours truly, no CMS, no Bootstrap was used. I coded both HTML and CSS by myself.",
         img: "http://toogreen.ca/china-static/img/china.png"
 	},
 	{
