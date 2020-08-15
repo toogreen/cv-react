@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+h1, h2, h3, h4, p, ul, li {
+	font-family: 'Merriweather', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@page {
+   size: 7in 9.25in;
+   margin: 27mm 16mm 27mm 16mm;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media print {
+  .no-print {
+      display:none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+	margin: 0;
+	font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+h3{
+	margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+header{
+	text-align: center;
 }
+
+header p{
+	font-size: 10px;
+}
+
+.container{
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	border-top: solid 1px black;
+}
+
+
+.social  {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 4px;
+	margin-top: 20px;
+}
+
+
+.social-icons  {
+	width: 25px;	
+}
+
+
+.section{
+	margin-top: 80px;
+	text-align: left;
+}
+
+#experience h3, {
+	color: rgb(1, 54, 15);
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: -5px;
+	/*text-shadow:2px 1px 1px rgba(0,0,0,0.4); */
+}
+
+.subsection{
+	margin-top: 60px;
+	background-color: rgba(240,240,240,0.8);
+	margin-bottom: 10px;
+	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
+	border: 1px solid rgba(220,220,220,1);
+	padding: 15px;
+	border-radius: 8px;
+}
+
+#skills .subsection{
+	border: 0;
+	margin: 0;
+	box-shadow: none;
+	border-top: solid 1px black;
+	padding: 0px 10px;
+}
+
+#portfolio .subsection{
+	background-color: white;
+}
+
+#portfolio img{
+	max-width: 25%;
+	max-height: 200px;
+	margin-right: 40px;
+}
+
+#projects img{
+	max-width: 100%;
+}
+
+#projects h3{
+	margin: 0;
+}
+
+
+.left-column, .middle-column, .right-column{
+	text-align: left;
+}
+
+
+footer{
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .grid {
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 40px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+	grid-gap:  20px;
+  }
+
+  .grid2{
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+	grid-gap:  20px;
+  }
+
+  .grid3{
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-gap:  20px;
+  }
+
+	#top-left{
+		text-align: left;
+	}
+
+	#top-right{
+		text-align: right;
+	}
+
+
+	.social  {
+		width: 20%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-gap: 4px;
+	}
+
+	#experience h3{
+		color: rgb(1, 54, 15);
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-bottom: -45px;
+	}
+
+}
+
