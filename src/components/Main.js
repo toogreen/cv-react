@@ -199,9 +199,9 @@ class Main extends Component {
                                 {
                                     this.state.lang
                                     ? 
-                                    "Rochebelle Professional Formation Center, Québec City — DEP, 1997-1999" 
+                                    "Rochebelle Professional Formation Center, Québec City — DEP" 
                                     :
-                                    "Centre de formation professionnelle de Rochebelle, Québec - DEP, 1997-1999"
+                                    "Centre de formation professionnelle de Rochebelle, Québec - DEP"
                                 }
                                 </h3>
                             <p>

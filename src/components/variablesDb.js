@@ -13,12 +13,12 @@ const variablesDb =  [
     {
 		id: 3,
 		name:"link-to-linkedin-en",
-		value:"<strong>LinkedIn Profile</strong> (contains a lot more details) :<br /><a href='https://www.linkedin.com/in/toogreen'>https://www.linkedin.com/in/toogreen/</a><br /><strong>E-mail:&nbsp;</strong><a href='toogreen@gmail.com'>toogreen@gmail.com</a>"
+		value:"<strong>LinkedIn:</strong>&nbsp;<a href='https://www.linkedin.com/in/toogreen'>/in/toogreen</a><br /><strong>E-mail:&nbsp;</strong><a href='mailto:toogreen@gmail.com'>toogreen@gmail.com</a><br /><strong>Website: </strong><a href='https://toogreen.ca'>toogreen.ca</a>"
     },
     {
 		id: 4,
 		name:"link-to-linkedin-fr",
-		value:"<strong>Profil LinkedIn</strong> (contient plus de détails) :<br /><a href='https://www.linkedin.com/in/toogreen/'>https://www.linkedin.com/in/toogreen/?locale=fr_FR</a><br /><strong>Courriel:&nbsp;</strong><a href='toogreen@gmail.com'>toogreen@gmail.com</a>"
+		value:"<strong>LinkedIn&nbsp;:</strong>&nbsp;<a href='https://www.linkedin.com/in/toogreen/?locale=fr_FR'>/in/toogreen</a><br /><strong>Courriel&nbsp;:&nbsp;</strong><a href='mailto:toogreen@gmail.com'>toogreen@gmail.com</a><br /><strong>Web&nbsp;: </strong><a href='https://toogreen.ca'>toogreen.ca</a>"
     },
     {
 		id: 5,
@@ -73,12 +73,12 @@ const variablesDb =  [
     {
 		id: 16,
 		name:"footer-text-en",
-		value:"&copy; David Gagnon 2020 - This CV was built entirely on <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
+		value:"&copy; David Gagnon 2020 - This CV was entirely built using the <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a> framework"
 	},
     {
 		id: 17,
 		name:"footer-text-fr",
-		value:"&copy; David Gagnon 2020 - Ce CV a été entièrement conçu avec <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
+		value:"&copy; David Gagnon 2020 - Ce CV a été entièrement conçu avec le 'framework' <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
     }
 ];
 export default variablesDb

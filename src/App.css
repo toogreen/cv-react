@@ -2,6 +2,14 @@ h1, h2, h3, h4, p, ul, li {
 	font-family: 'Merriweather', serif;
 }
 
+a {
+	color: green;
+}
+
+a:hover{
+	color: darkgreen;
+}
+
 @page {
    size: 7in 9.25in;
    margin: 27mm 16mm 27mm 16mm;
@@ -62,14 +70,13 @@ header p{
 		box-shadow: 2px 2px 2px #888888;
 		cursor: pointer;
 		/* background: rgba(0, 148, 20, 80%); */
-		background-color:rgba(0, 0, 0, 50%);
-		color: white;
+		background-color:rgba(0, 155, 0, 50%);
+		color: black;
 		border: none;
-		
 	}
 
 .nom{
-	font-size: 1.5em;
+	font-size: 2em;
 	line-height: 50px;
 }
 
@@ -165,6 +172,10 @@ header p{
 
 footer{
 	text-align: center;
+}
+
+footer .container{
+	border-top: 1px solid rgba(0,0,0,0.2);
 }
 
 

@@ -20,7 +20,7 @@ const ProjectsDb = [
         lang: "en",
         name: "www.toogreen.ca/meme",
         url: "http://www.toogreen.ca/meme",
-        desc: "Recent project I created just for fun while learning React.js",
+        desc: "Recent project I created just for fun while learning React.js. This gave me good bases on the React framework and helped me understand a lot better how props, state, and other features work.",
         img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/image.png"
     },
 	{
@@ -28,7 +28,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "www.toogreen.ca/meme",
         url: "http://www.toogreen.ca/meme",
-        desc: "Un récent projet que j'ai créé pour pratiquer mes skills sur React.js",
+        desc: "Un récent projet que j'ai créé pour pratiquer mes skills sur React.js. Celà m'a permis d'acquérir une bonne base sur ce framework et m'a beaucoup aidé à comprendre comment fonctionne les props, state, et autres fonctionalitées de React.",
         img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/image.png"
 	},
 	{
