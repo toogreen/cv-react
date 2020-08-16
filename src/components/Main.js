@@ -80,8 +80,7 @@ class Main extends Component {
                     <div className="container">
 
                     <div className="lang">
-                        <h1>You are currently logged in {curLang}</h1>
-                        <button onClick={this.toggleLang}>{this.state.lang ? "Version française disponible" : "English Version available" }</button>
+                        <button onClick={this.toggleLang}>{this.state.lang ? "FR" : "EN" }</button>
                     </div>
 
 

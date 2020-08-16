@@ -8,7 +8,7 @@ const variablesDb =  [
 	{
 		id: 2,
 		name:"link-to-pdf-fr",
-		value:"Pour une version plus résumée et en format PDF,<br /> veuillez cliquer ici: <a href='https://toogreen.ca/cv/Resume-DavidGagnon-Francais.pdf' target='_blank' rel='noopener noreferrer'>https://toogreen.ca/cv/Resume-DavidGagnon-English.pdf</a>"
+		value:"Pour une version plus résumée et en format PDF,<br /> veuillez cliquer ici: <a href='https://toogreen.ca/cv/Resume-DavidGagnon-Francais.pdf' target='_blank' rel='noopener noreferrer'>https://toogreen.ca/cv/Resume-DavidGagnon-Francais.pdf</a>"
     },
     {
 		id: 3,
