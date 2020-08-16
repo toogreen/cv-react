@@ -1,4 +1,3 @@
-import React from "react"
 import variablesDb from "./variablesDb"
 
 function RenderTXT(props){

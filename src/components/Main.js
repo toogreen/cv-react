@@ -3,7 +3,6 @@ import SkillsDb from "./SkillsDb"
 import SkillsList from "./SkillsList"
 import ProjectsList from "./ProjectsList"
 import ProjectsDb from "./ProjectsDb"
-import variablesDb from "./variablesDb"
 import RenderHTML from "./RenderHTML"
 import RenderTXT from "./RenderTXT"
 import ExperienceList from "./ExperienceList"
@@ -136,7 +135,7 @@ class Main extends Component {
                                     </a>
                 
                                     { 
-                                    // YoutTube 
+                                    // YouTube 
                                     }
                                     <a className="social-icons" href="https://www.youtube.com/user/toogreen/" target="_blank" rel="noopener noreferrer">
                                         <img alt="YouTube Social Media Icon" src="https://toogreen.ca/cv/img/hollow-cut-youtube.svg" />
@@ -221,6 +220,7 @@ class Main extends Component {
                 
                             <SkillsList
                                 data={SkillsDb}
+                                language={curLang}
                             />
                 
                         </div>
@@ -239,10 +239,14 @@ class Main extends Component {
                                 <img alt="Logo from Portfolio" src="https://toogreen.ca/cv/img/logos/divercity.png" />
                             </div>
                 
-                            <h3>Websites</h3>
+                            <h3>{this.state.lang? "Websites" : "Sites web"}</h3>
                 
                             <p>
-                                Please visit this website to see some more samples:<br />
+                                <RenderTXT
+                                    data={this.state}
+                                    itemName="websites"
+                                />
+                                <br />
                                 <a href="https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1" target="_blank" rel="noopener noreferrer">
                                 https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1</a>
                             </p>
@@ -271,11 +275,17 @@ class Main extends Component {
                 
                         <div className="section" id="projects">
                 
-                            <h2>Projects</h2>
-                            <p>A few projects I worked on, more in details...</p>
+                            <h2>{this.state.lang? "Projects" : "Projets"}</h2>
+                            <p>
+                                <RenderTXT
+                                    data={this.state}
+                                    itemName="projects"
+                                />                               
+                            </p>
                 
                             <ProjectsList
                                 db={ProjectsDb}
+                                language={curLang}
                             />
                             
                         </div>
@@ -284,9 +294,27 @@ class Main extends Component {
                     </div>
                 
                     <div className="container">
-                        <h3>That's about it for now! Hope you find this satisfactory to your needs. Don't hesitate to reach out! Thanks.</h3>
+                        <h3>
+                           <RenderTXT
+                                data={this.state}
+                                itemName="conclusion"
+                           />
+                        </h3>
                     </div>
                 </main>
+                <footer>
+                    <div className="container">
+
+                        <p>
+                            <RenderHTML 
+                                data={this.state}
+                                itemName="footer-text"
+                            />
+
+                        </p>
+                     </div>
+                    
+                </footer>
             </div>
         )
     }

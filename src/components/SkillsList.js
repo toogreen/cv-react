@@ -2,7 +2,7 @@ import React from 'react';
 import Skill from "./Skill"
    
 const SkillsList = (props) => (
-    props.data.map(item => (
+    props.data.filter(item => item.lang === props.language).map(item => (
         <Skill 
        		key={item.id} 
 		   	name={item.name}

@@ -39,6 +39,48 @@ const variablesDb =  [
 		id: 8,
 		name:"edu-fr",
 		value:"DEP en Infographie. J'ai étudié et pratiqué le pré-presse ainsi que le design web, incluant un stage chez une firme marketing de Québec (SillyWeb)"
-    },
+	},
+    {
+		id: 9,
+		name:"websites-en",
+		value:"Please visit this website to see some more samples:"
+	},
+    {
+		id: 10,
+		name:"websites-fr",
+		value:"Veuillez visiter ce site pour voir plus d'exemples:"
+	},
+    {
+		id: 11,
+		name:"projects-en",
+		value:"A few projects I worked on, more in details..."
+	},
+    {
+		id: 12,
+		name:"projects-fr",
+		value:"Quelques projets sur lesquels j'ai travaillé, plus en détails..."
+	},
+    {
+		id: 14,
+		name:"conclusion-en",
+		value:"That's about it for now! Hope you find this satisfactory to your needs. Don't hesitate to reach out! Thanks."
+	},
+    {
+		id: 15,
+		name:"conclusion-fr",
+		value:"Voilà! J'espère que çelà satisfait votre curiosité. N'hésitez pas à me contacter si vous avez des questions! Merci."
+	},
+    {
+		id: 16,
+		name:"footer-text-en",
+		value:"&copy; David Gagnon 2020 - This CV was built entirely on <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
+	},
+    {
+		id: 17,
+		name:"footer-text-fr",
+		value:"&copy; David Gagnon 2020 - Ce CV a été entièrement conçu avec <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
+    }
 ];
 export default variablesDb
+
+

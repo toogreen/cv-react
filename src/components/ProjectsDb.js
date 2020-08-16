@@ -1,65 +1,146 @@
 const ProjectsDb = [
 	{
-		id: -1,
+        id: 1,
+        lang: "en",
         name: "www.toogreen.ca/china",
         url: "http://www.toogreen.ca/china",
         desc: "An informative website I recently created to denounce censorship from China. I've now converted the whole thing to React.js. Try resizing the window smaller to see the responsive design in action, as well as the logo chaning to accomodate the mobile width space. This is a great example of what we can do now with modern CSS. All code from yours truly, no CMS, no Bootstrap was used. I coded both HTML and CSS by myself.",
         img: "http://toogreen.ca/china-static/img/china.png"
+    },
+    {
+        id: 2,
+        lang: "fr",
+        name: "www.toogreen.ca/china",
+        url: "http://www.toogreen.ca/china",
+        desc: "Un site web informatif un peu satirique pour dénoncer certaines censures de la Chine que j'ai créé d'abord surtout pour pratiquer mes skills CSS. J'ai ensuite converti le tout en React.js et ajouté une base de données flat en backend. Tentez de rapetisser votre fureteur pour voir le responsive design en action, ainsi que le changement de logo pour s'accomoder à l'espace écran disponible. Voilà un excellent exemple de ce que l'on peut maintenant faire avec le CSS moderne et sans boilerplate. J'ai tout codé moi-même de A à Z, pas de CMS, ni Bootstrap fut utilisé. tout le code HTML, CSS et React par moi-même.",
+        img: "http://toogreen.ca/china-static/img/china.png"
 	},
 	{
-		id: 0,
+        id: 3,
+        lang: "en",
         name: "www.toogreen.ca/meme",
         url: "http://www.toogreen.ca/meme",
         desc: "Recent project I created just for fun while learning React.js",
         img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/image.png"
+    },
+	{
+        id: 4,
+        lang: "fr",
+        name: "www.toogreen.ca/meme",
+        url: "http://www.toogreen.ca/meme",
+        desc: "Un récent projet que j'ai créé pour pratiquer mes skills sur React.js",
+        img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/image.png"
 	},
 	{
-		id: 1,
+        id: 5,
+        lang: "en",
         name: "www.mtversion.ca",
         url: "https://www.mtversion.ca",
         desc: "On a very tight budget, we needed to build a website in the least amount of time as well. Hence I thought why not code it by hand based on a Bootstrap template similar to to what I used for MT>Ventures (See below)? And this is how MT>Version was created. Simple but efficient.",
         img: "https://toogreen.ca/cv/img/projects/mtversion.png"
-	},
+    },
 	{
-		id: 2,
+        id: 6,
+        lang: "fr",
+        name: "www.mtversion.ca",
+        url: "https://www.mtversion.ca",
+        desc: "Avec un budget très limité, on voulait un site web moderne et bâti en le moins de temps possible. Je me suis donc dit pourquoi ne pas simplement prendre un template bootstrap similaire pour celui utilisé avec MT>Ventures (voir ci-bas)? Et c'est ainsi que MT>Version est né. Simple et efficace.",
+        img: "https://toogreen.ca/cv/img/projects/mtversion.png"
+    },
+	{
+        id: 7,
+        lang: "en",
         name: "www.mtventures.ca",
         url: "https://www.mtventures.ca",
         desc: "Similarly to MT Version above, this was also built quickly and on a very tight budget, we needed to build a website in the least amount of time as well. Again, with the help of the design team, I used Bootstrap to quickly get this up and running. ",
         img: "https://toogreen.ca/cv/img/websites/mtventures.png"
+    },
+	{
+        id: 8,
+        lang: "fr",
+        name: "www.mtventures.ca",
+        url: "https://www.mtventures.ca",
+        desc: "Similaire au site web ci-haut, this fut aussi conçu en peu de temps et avec un budget limité. Avec la collaboration de l'équipe design, j'ai utilisé Bootstrap pour mettre sur pied ce site en un temps record. ",
+        img: "https://toogreen.ca/cv/img/websites/mtventures.png"
 	},
 	{
-        id: 3,
+        id: 9,
+        lang: "en",
         name: "www.softvoyage.com",
         url: "https://www.softvoyage.com",
         desc: "The company needed a major revamp for the main web portal. I've done most of work behind taking a design idea and turning it into a full blown Wordpress template. Used HTML5, CSS3, PHP and jQuery technologies to make everything work as it should. The website presenting a couple of challenges later on a well, for instance adapting all the PHP templates from being simply bilingual (French + English) to a tri-lingual version (added Spanish recently).",
         img: "https://toogreen.ca/cv/img/projects/softvoyage.png"
     },
+	{
+        id: 10,
+        lang: "fr",
+        name: "www.softvoyage.com",
+        url: "https://www.softvoyage.com",
+        desc: "L'entreprise avait besoin d'un redesign majeur pour leur site qui avait un look très passé date. J'ai fait le gros du travail en transformant ce qui est parti d'un design en site web complet basé sur WordPress. Utilisé les technologies HTML5, CSS3, PHP et jQuery pour rendre le tout fonctionnel. Ce site m'a donné quelques petits défis, par exemple il a fallu plus tard faire en sorte que le site ne soit pas seulement bilingue (français + anglais) mais trilingue. J'ai donc mis en place une version espagnole en modifiant le code PHP existant pour rendre celà possible.",
+        img: "https://toogreen.ca/cv/img/projects/softvoyage.png"
+    },
     {
-        id: 4,
+        id: 11,
+        lang: "en",
         name: "www.avenirmd.com",
         url: "https://www.avenirmd.com",
         desc: "This private clinic needed a brand new, better looking Wordpress-based website. Starting from an exisiting template, I have modified its code heavily using CSS3 and jQuery to add some new features, such as making the main pictures becoming in color when rolling the mouse over them, as well as adding sub-menus and right sidebar, etc. It was the first time I used jQuery extensively and some interesting CSS3 newer features.",
         img: "https://toogreen.ca/cv/img/projects/avenirmd.png"
     },
     {
-        id: 5,
+        id: 12,
+        lang: "fr",
+        name: "www.avenirmd.com",
+        url: "https://www.avenirmd.com",
+        desc: "Cette clinique privée avait besoin d'un nouveau site basé sur Wordpress. En partant d'un gabarit (template) existant, j'ai modifié à fond le CSS3 et inséré du jQuery pour ajouter de nouvelles fonctionnalitées, comme transformer les images (de noir et blanc à couleur) sur roll-over, ainsi qu'ajouté des sous-menus et un menu de droite, etc. C'était la première fois que j'ai utilisé jQuery et développé des fonctionnalités CSS3 modernes.",
+        img: "https://toogreen.ca/cv/img/projects/avenirmd.png"
+    },
+    {
+        id: 13,
+        lang: "en",
         name: "www.suis.com.cn",
         url: "https://www.suis.com.cn",
         desc: "Shanghai's « Xiehe Education Group » manages several schools around Shanghai. I am the one who created their portal, from the installation and configuration of the Linux server, followed by the installation and set up of the Drupal CMS, as well as the graphic signature which I designed by modifying an existing Drupal template. I also added a bit of PHP code for extras. It's also myself who has put in place their email server as well as the Learning Management System based on the Moodle Open Source software.",
         img: "https://toogreen.ca/cv/img/projects/suis.png"
     },
     {
-        id: 6,
+        id: 14,
+        lang: "fr",
+        name: "www.suis.com.cn",
+        url: "https://www.suis.com.cn",
+        desc: "Le groupe 'Xiehe Education' gère plusieurs écoles internationales au travers Shanghai. Je suis celui qui a créé leur portail, de l'installation et la configuration du serveur Linux, suivi par l'installation et configuration du CMS Drupal, ainsi que créé la signature graphique que j'ai créé en modifiant les thèmes Drupal existants. J'ai aussi ajouté du code PHP pour quelques extras. C'est aussi moi qui a mis-en-place leur serveur courriel ainsi que leur LMS basé sur le logiciel libre Moodle.",
+        img: "https://toogreen.ca/cv/img/projects/suis.png"
+    },
+    {
+        id: 15,
+        lang: "en",
         name: "Students Administration Desk",
         url: "",
         desc: "I have extended this in-house developed management system, based on PHP and MySQL by building on top of its original source code. At the time I left, this system was still being used to manage information about students, take daily attendance, set up buses, write comments, etc. My contribution consists in two modules that I created from scratch and integrated into the existing system: <ol><li>On-line reports web interface which allows teachers to input students' grades, as well as store, view and print reports directly on-line.</li><li>A web interface allowing teachers to input their lesson plans directly on-line and from home, as well as sharing them with other teachers. </li></ol>",
         img: "https://toogreen.ca/cv/img/projects/sad.png"
     },
     {
-        id: 7,
+        id: 16,
+        lang: "fr",
+        name: "Students Administration Desk",
+        url: "",
+        desc: "J'ai grandement contribué au développement de ce sytème de gestion, basé sur PHP et MySQL en contribuant à l'élaboration de son code source. Quand j'ai quitté Shanghai, ce système était encore utilisé pour gérer l'information sur les étudiants, prendre les présences quotidiennes, gérer les autobus, commentaires, etc. Ma contribution consiste en 2 modules que j'ai créé à partir de zéro: <ol><li>Bulletins en ligne et interface client web permettant aux enseignants d'entrer les notes des étudiants, ainsi que sauvegarder, visualiser et imprimer les bulletins.</li><li>Une interface web permettant aux enseignants de préparer leurs plans de cours en ligne et de la maison, et de partager ceux-ci avec les autres enseignants. </li></ol>",
+        img: "https://toogreen.ca/cv/img/projects/sad.png"
+    },
+    {
+        id: 17,
+        lang: "en",
         name: "photojournaliste.ca",
         url: "",
         desc: "A website I've built in 2003 for a photographer friend which was also based in Shanghai. He needed a website to promote himself and his portfolio. This was the very first website in which I used the PHP and MySQL technologies. Again I've done everything, from scanning the original pictures from film, to graphic design then HTML slicing and PHP, MySQL, HTML, CSS and JavaScript programming. Thanks to PHP/MySQL, this website could be easily updated by his owner, for example adding text or photos, without having to do any programming or requiring my assistance.",
+        img: "https://toogreen.ca/cv/img/projects/phil.png"
+    },
+    {
+        id: 18,
+        lang: "fr",
+        name: "photojournaliste.ca",
+        url: "",
+        desc: "Un site web que j'ai conçu en 2003 pour un ami photographe qui était aussi basé à Shanghai. Il avait besoin d'un site web pour se promouvoir et afficher son portfolio. La raison pour laquelle j'en fait mention est parce que c'est le tout premier site web avec lequel j'ai utilisé les technologies PHP and MySQL, ce qui lui permettait de mettre lui-même son site à jour (pour l'époque c'était pas mal). Encore une fois j'ai tout fait moi-même, de la numérisation des photos et films originaux, au design graphique et l'intégration du tout en HTML, PHP, MySQL, CSS et JavaScript. ",
         img: "https://toogreen.ca/cv/img/projects/phil.png"
     }
 ];
