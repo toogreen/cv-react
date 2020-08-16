@@ -87,6 +87,7 @@ header p{
 .section{
 	margin-top: 80px;
 	text-align: left;
+	margin-bottom: 30px;
 }
 
 #experience h3, {
@@ -94,7 +95,7 @@ header p{
 	margin-top: 20px;
 	margin-left: 10px;
 	margin-bottom: -5px;
-	/*text-shadow:2px 1px 1px rgba(0,0,0,0.4); */
+	text-shadow:2px 1px 1px rgba(0,0,0,0.4); 
 }
 
 #experience h4{
@@ -104,11 +105,11 @@ header p{
 .subsection{
 	margin-top: 60px;
 	background-color: rgba(240,240,240,0.8);
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
 	border: 1px solid rgba(220,220,220,1);
 	padding: 15px;
-	border-radius: 6px;
+	border-radius: 3px;
 }
 
 .subsection li{

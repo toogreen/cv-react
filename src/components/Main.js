@@ -186,9 +186,7 @@ class Main extends Component {
                         <div className="section" id="experience">
                 
                             <h2>{this.state.lang ? "Experience" : "Expérience"}</h2>
-
                             
-
                             <ExperienceList
                                 data={this.state}
                                 language={curLang}
