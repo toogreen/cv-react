@@ -1,53 +1,28 @@
 const ProjectsDb = [
 	{
 		id: 1,
-        name: "www.mtversion.ca",
-        url: "https://www.mtversion.ca",
-        desc: "On a very tight budget, we needed to build a website in the least amount of time as well. Hence I thought why not code it by hand based on a Bootstrap template similar to to what I used for MT>Ventures (See below)? And this is how MT>Version was created. Simple but efficient.",
-        img: "https://toogreen.ca/cv/img/projects/mtversion.png"
-	},
+        title: "McCarthy Tétrault – September 2014 to June 2020",
+        leftTitle: "Webmaster, coordinator and CSS/jQuery/HTML5 Developer. My responsibilities included:",
+        leftList: "<li>Maintaining the firm’s corporate and recruitment websites (production and design)</li><li>Primary contact and project manager for internal website requests</li><li>Primary contact with IT department for all web-related projects and liaising with vendors as required</li><li>Support for design and layout of electronic external (clients) and internal communications</li><li>Management of the firm-wide electronic event invitations process</li><li>Providing website metrics</li><li>Active participation in social media/online/technology related products</li>",
+        rightTitle: "Some notable projects related to this position :",
+        rightList: "<li><strong><a href='https://www.mtversion.ca' target='_blank' rel='noopener noreferrer'>MT Version</a></strong> and <strong><a href='https://www.mtventures.ca'>MT Ventures</a></strong><br />Based on a design produced by a collaboration of my input and the design team, I have built this website's content from scratch.</li><li><strong><a href='https://marcomm.mccarthy.ca/marcomm/cybersecurity/index.html' target='_blank' rel='noopener noreferrer'>CyberSecurity Guide</a></strong><br />Small one pager website I developed using Bootstrap, based on an existing PDF document. I tried to retain the look and feel of the PDF to apply it to the web.</li><li><strong><a href='https://marcomm.mccarthy.ca/marcomm/projects_map/' target='_blank' rel='noopener noreferrer'>Global Projects Map</a></strong><br />Very simple HTML5 website based on JSON with a Google Spreadsheet as its main data source</li>"
+    },
 	{
 		id: 2,
-        name: "www.mtventures.ca",
-        url: "https://www.mtventures.ca",
-        desc: "Similarly to MT Version above, this was also built quickly and on a very tight budget, we needed to build a website in the least amount of time as well. Again, with the help of the design team, I used Bootstrap to quickly get this up and running. ",
-        img: "https://toogreen.ca/cv/img/websites/mtventures.png"
-	},
+        title: "Softvoyage – November 2012 to March 2014",
+        leftTitle: "Web Designer and CSS/jQuery/HTML5 Developer. Worked on general graphic design as well as HTML5 development and UI design, with a special focus on mobile devices and responsive design. More recently started developing in-house web applications using PHP and MySQL/MariaDB. Most of the work was done on a Mac OS X client machine with code running on Linux servers (CentOS, RHLE).",
+        leftList: "",
+        rightTitle: "Some notable projects related to this position :",
+        rightList: "<li><strong>Main Softvoyage Website</strong> (<a href='https://www.softvoyage.com' target='_blank' rel='noopener noreferrer'>www.softvoyage.com</a>)<br />Based on a provided design, I have mostly built this Wordpress website's content and functionalities</li><li><strong>HTML5 Holidays Greetings card</strong> (<a href='https://holidays.softvoyage.com' target='_blank' rel='noopener noreferrer'>holidays.softvoyage.com</a>)<br />Greetings card built entirely in HTML5/CSS3 and jQuery.</li><li><strong>AvenirMD</strong> (<a href='https://www.avenirmd.com' target='_blank' rel='noopener noreferrer'>www.avenirmd.com</a>)<br />Side project I worked on, built the entire Wordpress website based on a template that I heavily modified using PHP and jQuery.</li>"
+    },
 	{
-        id: 3,
-        name: "www.softvoyage.com",
-        url: "https://www.softvoyage.com",
-        desc: "The company needed a major revamp for the main web portal. I've done most of work behind taking a design idea and turning it into a full blown Wordpress template. Used HTML5, CSS3, PHP and jQuery technologies to make everything work as it should. The website presenting a couple of challenges later on a well, for instance adapting all the PHP templates from being simply bilingual (French + English) to a tri-lingual version (added Spanish recently).",
-        img: "https://toogreen.ca/cv/img/projects/softvoyage.png"
-    },
-    {
-        id: 4,
-        name: "www.avenirmd.com",
-        url: "https://www.avenirmd.com",
-        desc: "This private clinic needed a brand new, better looking Wordpress-based website. Starting from an exisiting template, I have modified its code heavily using CSS3 and jQuery to add some new features, such as making the main pictures becoming in color when rolling the mouse over them, as well as adding sub-menus and right sidebar, etc. It was the first time I used jQuery extensively and some interesting CSS3 newer features.",
-        img: "https://toogreen.ca/cv/img/projects/avenirmd.png"
-    },
-    {
-        id: 5,
-        name: "www.suis.com.cn",
-        url: "https://www.suis.com.cn",
-        desc: "Shanghai's « Xiehe Education Group » manages several schools around Shanghai. I am the one who created their portal, from the installation and configuration of the Linux server, followed by the installation and set up of the Drupal CMS, as well as the graphic signature which I designed by modifying an existing Drupal template. I also added a bit of PHP code for extras. It's also myself who has put in place their email server as well as the Learning Management System based on the Moodle Open Source software.",
-        img: "https://toogreen.ca/cv/img/projects/suis.png"
-    },
-    {
-        id: 6,
-        name: "Students Administration Desk",
-        url: "",
-        desc: "I have extended this in-house developed management system, based on PHP and MySQL by building on top of its original source code. At the time I left, this system was still being used to manage information about students, take daily attendance, set up buses, write comments, etc. My contribution consists in two modules that I created from scratch and integrated into the existing system: <ol><li>On-line reports web interface which allows teachers to input students' grades, as well as store, view and print reports directly on-line.</li><li>A web interface allowing teachers to input their lesson plans directly on-line and from home, as well as sharing them with other teachers. </li></ol>",
-        img: "https://toogreen.ca/cv/img/projects/sad.png"
-    },
-    {
-        id: 7,
-        name: "photojournaliste.ca",
-        url: "",
-        desc: "A website I've built in 2003 for a photographer friend which was also based in Shanghai. He needed a website to promote himself and his portfolio. This was the very first website in which I used the PHP and MySQL technologies. Again I've done everything, from scanning the original pictures from film, to graphic design then HTML slicing and PHP, MySQL, HTML, CSS and JavaScript programming. Thanks to PHP/MySQL, this website could be easily updated by his owner, for example adding text or photos, without having to do any programming or requiring my assistance.",
-        img: "https://toogreen.ca/cv/img/projects/phil.png"
-    }
+		id: 3,
+        title: "Shanghai United International School — 2004-2012",
+        leftTitle: "Cross-campus coordinator for a series of primary schools in Shanghai (Xiehe Education Group). I acted as an advisor, system administrator, facilitator and teacher. My tasks included managing the IT infrastructures across campuses and administrating the school’s web servers, databases, e-mail, FTP, Administration desk, etc. I have also deployed a Learning Management System (Moodle) and developed several web apps and databases for administrative functions (PHP+MySQL). On top of that, I was also providing technical support and training to teachers, as well as teaching ICT to primary and secondary school students. I followed the IB curriculum program as well as IPC and the English National Curriculum. You can consult some of my IB workshops attendance certificates by <a href='https://www.dropbox.com/sh/hh6ixhzowx8kle7/EMoi0MtSi-'>following this link</a>",
+        leftList: "",
+        rightTitle: "Some notable projects related to this position :",
+        rightList: "<li><strong>Main Xiehe Education Organisation website portal</strong> (<a href='https://www.suis.com.cn' target='_blank' rel='noopener noreferrer'>www.suis.com.cn</a>)<br />I have set up, designed, and administered this website based on Drupal until June 2012. It's now unfortunately out of date and lacks the quality I would normally require, but it used to actually look good when I was still in charge of it! </li><li><strong>Moodle installation at Shanghai United International School</strong><br />I have set up the Linux server (Debian), then set up and administered this Moodle website until June 2012. What it looks like now may not reflect my work anymore but I have originally built, set up, administered and maintained it in the past.</li><li><strong>Students Database and Reporting System</strong> (<a href='https://drive.google.com/file/d/0B22ydAZ7kz_NbEZrMHE0UEhCNmM/view' target='_blank' rel='noopener noreferrer'>See a screenshot here</a>)<br />I have helped create and maintain an online, PHP-based administrative database system for storing students information and monitoring other school management matters such as taking attendance, comments, transportation info, reports, etc. I have built the entire reports system from scratch using PHP, HTML and MySQL.</li><li><strong>Portable Netbooks Trolley</strong> (<a href='https://drive.google.com/file/d/0B22ydAZ7kz_NOTg5V3RSeTRJZW8/view' target='_blank' rel='noopener noreferrer'>View document here</a>)<br />Designed a trolley system for Netbooks that is now in use in Shangyin Campus. Click on title above to see the actual plans.</li><li><strong>Set up and maintenance of LAMP servers (Debian), Web services (Apache), Email (postfix+courier), file servers</strong><br />I have set up all the original Linux servers in the school, which ran websites and all the web apps, as well as the original main email system for all the schools based on Postfix and Courier.</li><li><strong>Set up of Access-IT Library Software Platform</strong> (<a href='https://accessitlibrary.com' target='_blank' rel='noopener noreferrer'>https://accessitlibrary.com</a><br />I've performed the installation and set up of the library systems 'Access-IT' on the Linux servers as well as the database</li> systems required"
+	}
 ];
 
 export default ProjectsDb

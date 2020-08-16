@@ -1,21 +1,40 @@
 import React, {Component} from "react"
 
 
-function Article(props) {
+function Experience(props) {
 
 	return(
-		<article>
-				<a id={props.key} href={props.url} target="_blank">
-					<div id={props.key} className={props.classtype}>
-						<img id={props.key} src={props.img} />
-		 				<h1>{props.title}</h1>
-						<br />
-						<p id={props.key}>{props.desc}</p>			
-					</div>
-				</a>
-		</article>
+		<div className="experienceItem">
+                                
+			<h3>{props.title}</h3>
+
+			<div className="subsection grid">
+
+				<div className="left-column">
+					
+					<p dangerouslySetInnerHTML={{ __html: props.leftTitle }}>
+					</p>
+
+					<ul dangerouslySetInnerHTML={{ __html: props.leftList }}>
+					</ul>	
+				</div>
+
+
+				<div className="right-column">
+
+					<h4>
+						{props.rightTitle}
+					</h4>	
+					
+					<ul dangerouslySetInnerHTML={{ __html: props.rightList }}>
+					</ul>	
+
+				</div>			
+
+			</div>
+		</div>
 
 	)
-
+	
 }
-export default Article
+export default Experience
