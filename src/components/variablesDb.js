@@ -30,6 +30,15 @@ const variablesDb =  [
 		name:"profile-fr",
 		value:"Honnête et fiable, autodidacte, soif d'apprendre et facilité d'adaptation aux changements. Passionné de technologies TI fait en sorte que je suis toujours à jour dans les dernières tendances technologiques. Expert des logiciels libres. Connaissance approfondie des différents SEs, incluant Mac OS X, Windows PC, UNIX/Linux, Android & iOS. J'aimerais travailler dans un environment moderne et dynamique où j'aurai l'occasion de me garder à jour ainsi que mettre à contribution mes aptitudes et ma capacité de gérer plusieurs projets. Je suis présentement en train d'apprendre à maîtriser React.js"
     },
-
+    {
+		id: 7,
+		name:"edu-en",
+		value:"DEP in Graphic Design. Studied and practiced pre-print design work as well as web design, including internship experience for a web design company (SillyWeb)"
+	},
+    {
+		id: 8,
+		name:"edu-fr",
+		value:"DEP en Infographie. J'ai étudié et pratiqué le pré-presse ainsi que le design web, incluant un stage chez une firme marketing de Québec (SillyWeb)"
+    },
 ];
 export default variablesDb

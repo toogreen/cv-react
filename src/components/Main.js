@@ -7,7 +7,6 @@ import variablesDb from "./variablesDb"
 import RenderHTML from "./RenderHTML"
 import RenderTXT from "./RenderTXT"
 import ExperienceList from "./ExperienceList"
-import ExperienceDb from "./ExperienceDb"
 //import Tabletop from 'tabletop';
 
 class Main extends Component {
@@ -15,7 +14,8 @@ class Main extends Component {
 	constructor() {
 		super()
 		this.state = {
-            lang: true
+            lang: true,
+            curLang: "en"
         }
         this.toggleLang = this.toggleLang.bind(this);
 	}
@@ -54,14 +54,19 @@ class Main extends Component {
 			curLang = "en"
 		} else {
 			curLang = "fr"
-		}
+        }
+        
 
         return(
 
             <div>
                 <header>
+
                     <h1>Curriculum Vitae</h1>
                     <p>
+                    {
+                        // Link to PDF version
+                    }
                         <RenderHTML
                             data={this.state}
                             itemName="link-to-pdf"
@@ -70,15 +75,16 @@ class Main extends Component {
 
                     
                 </header>
+
                 <main>
+
+                    <div className="container">
 
                     <div className="lang">
                         <h1>You are currently logged in {curLang}</h1>
-                        <button onClick={this.toggleLang}>{this.state.lang ? "Version française" : "English Version" }</button>
+                        <button onClick={this.toggleLang}>{this.state.lang ? "Version française disponible" : "English Version available" }</button>
                     </div>
 
-
-                    <div className="container">
 
                     {
                         //top part - Contact info
@@ -161,7 +167,7 @@ class Main extends Component {
                 
                         <div className="section">
                 
-                            <h2>Profile</h2>
+                            <h2>{this.state.lang? "Profile" : "Profil"}</h2>
 
                             <p>
                                 <RenderTXT
@@ -181,21 +187,37 @@ class Main extends Component {
                         <div className="section" id="experience">
                 
                             <h2>{this.state.lang ? "Experience" : "Expérience"}</h2>
-                
+
+                            
+
                             <ExperienceList
-                                data={ExperienceDb}
+                                data={this.state}
+                                language={curLang}
                             />
                         </div>
                 
                 
                         <div className="section">
-                            <h2>Education </h2>
-                            <h3>Rochebelle Professional Formation Center, Québec City — DEP, 1997-1999</h3>
-                            <p>DEP in Graphic Design. Studied and practiced pre-print design work as well as web design, including internship experience for a web design company (SillyWeb)</p>
+                            <h2>{this.state.lang? "Education" : "Éducation"} </h2>
+                            <h3>
+                                {
+                                    this.state.lang
+                                    ? 
+                                    "Rochebelle Professional Formation Center, Québec City — DEP, 1997-1999" 
+                                    :
+                                    "Centre de formation professionnelle de Rochebelle, Québec - DEP, 1997-1999"
+                                }
+                                </h3>
+                            <p>
+                                <RenderTXT
+                                    data={this.state}
+                                    itemName="edu"
+                                />
+                            </p>
                         </div>
                     
                         <div className="section" id="skills">
-                            <h2>Skills & Qualifications </h2>
+                            <h2>{this.state.lang? "Skills & Qualifications" : "Atouts et compétences"} </h2>
                 
                             <SkillsList
                                 data={SkillsDb}

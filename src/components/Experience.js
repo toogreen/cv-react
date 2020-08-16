@@ -6,6 +6,8 @@ function Experience(props) {
 	return(
 		<div className="experienceItem">
                                 
+			<h1>{props.lang}</h1>
+
 			<h3>{props.title}</h3>
 
 			<div className="subsection grid">
