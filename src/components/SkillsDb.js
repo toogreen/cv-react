@@ -39,13 +39,13 @@ const SkillsDb = [
         id: 7,
         lang: "en",
         name: "Web Developer",
-        desc: "I have built several websites and on-line apps in HTML5/CSS3/PHP/MySQL/JavaScript/jQuery/Bootstrap/React. I can do both backend and frontend work but I mostly excel at front-end and CSS, and adapting provided graphical content into HTML5."
+        desc: "I have built several websites and on-line apps in HTML5, CSS3, PHP, MySQL, JavaScript, jQuery, Bootstrap, React. I can do both backend and frontend work but I mostly excel at front-end and CSS, and adapting provided graphical content into HTML5."
     },
     {
         id: 8,
         lang: "fr",
         name: "Développeur web",
-        desc: "J'ai bâti plusieurs sites et applications web à l'aide des technologies HTML5/CSS3/PHP/MySQL/JavaScript/jQuery/Bootstrap/React. Je fais autant du backend et frontend mais j'excelle surtout au front-end et CSS, et adapter du contenu graphique en HTML5."
+        desc: "J'ai bâti plusieurs sites et applications web à l'aide des technologies HTML5, CSS3, PHP, MySQL, JavaScript, jQuery, Bootstrap, React. Je fais autant du backend et frontend mais j'excelle surtout au front-end et CSS, et adapter du contenu graphique en HTML5."
     },
     {
         id: 9,
