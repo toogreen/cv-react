@@ -92,33 +92,38 @@ header p{
 .section{
 	margin-top: 80px;
 	text-align: left;
-	margin-bottom: 30px;
 }
 
-#experience h3, {
+.experienceItem h3, {
 	color: rgb(1, 54, 15);
-	margin-top: 20px;
-	margin-left: 10px;
-	margin-bottom: -5px;
 	text-shadow:2px 1px 1px rgba(0,0,0,0.4); 
+	font-size: 1em;
 }
 
-#experience h4{
+.experienceItem .subsection{
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+
+
+.experienceItem h4{
 	font-weight: normal;
 }
 
 .subsection{
 	margin-top: 60px;
-	background-color: rgba(240,240,240,0.8);
-	margin-bottom: 30px;
-	box-shadow:5px 5px 5px rgba(0,0,0,0.2); 
-	border: 1px solid rgba(220,220,220,1);
+	background-color: rgba(245,245,245,0.8);
 	padding: 15px;
-	border-radius: 3px;
+	/* border-color: rgba(200,200,200,0.8); */
+	box-shadow:4px 2px 2px rgba(0,0,0,0.1); 
 }
 
 .subsection li{
 	margin-bottom: 10px;
+}
+
+.left-column, .right-column{
+	padding: 10px;
 }
 
 #skills .subsection{
@@ -133,10 +138,15 @@ header p{
 	background-color: white;
 }
 
+
 #portfolio img{
 	max-width: 25%;
 	max-height: 200px;
 	margin-right: 40px;
+}
+
+#projects .left-column .right-column{
+	width: 50%;
 }
 
 #projects img{
@@ -159,35 +169,45 @@ footer{
 
 
 @media (min-width: 768px) {
-  .grid {
-  	text-align: center;
-	width: 100%;
-	margin: auto;
-	margin-top: 40px;
-    display: grid;
-    grid-template-columns: 30% 1fr;
-	grid-gap:  20px;
-  }
+	.grid {
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: 40% 1fr;
+		grid-gap:  20px;
+	}
 
-  .grid2{
-  	text-align: center;
-	width: 100%;
-	margin: auto;
-	margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 30%;
-	grid-gap:  20px;
-  }
+	.grid2{
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: 30% 1fr;
+		grid-gap:  20px;
+	}
 
-  .grid3{
-  	text-align: center;
-	width: 100%;
-	margin: auto;
-	margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-	grid-gap:  20px;
-  }
+	.grid3{
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: 20% 1fr;
+		grid-gap:  20px;
+	}
+
+	.grid4{
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap:  20px;
+	}
 
 	#top-left{
 		text-align: left;
@@ -209,11 +229,15 @@ footer{
 		width: 30px;	
 	}
 
-	#experience h3{
+	.experienceItem h3{
 		color: rgb(1, 54, 15);
 		margin-top: 20px;
 		margin-left: 10px;
-		margin-bottom: -45px;
+		margin-bottom: 0px;
+	}
+
+	.left-column{
+		border-right: 1px solid rgba(100,100,100,0.5);
 	}
 
 }
