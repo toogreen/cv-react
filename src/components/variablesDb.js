@@ -23,12 +23,12 @@ const variablesDb =  [
     {
 		id: 5,
 		name:"profile-en",
-		value:"Honest and reliable, autodidact, hungry for learning and able to adapt to change. Passionate about IT technologies means always up-to-date with newest trends. Open Source technologies expert. Great knowledge of all IT technologies and systems, including Mac OS X, Windows PC, UNIX/Linux, Android & iOS. I am looking forward to working in a dynamic high-tech environment which will make best use of my management and IT skills. Thought it may be worth mentioning that I am currently learning how to master React.js."
+		value:"Honest and reliable, autodidact, hungry for learning and able to adapt to change. Passionate about IT technologies means always up-to-date with newest trends. Open Source technologies expert. Great knowledge of all IT technologies and systems, including Mac OS X, Windows PC, UNIX/Linux, Android & iOS. Passionate about development and modern web standards. I am looking forward to working in a dynamic high-tech environment which will make best use of my management and IT skills. Thought it may be worth mentioning that I am currently learning how to master React.js."
     },
     {
 		id: 6,
 		name:"profile-fr",
-		value:"Honnête et fiable, autodidacte, soif d'apprendre et facilité d'adaptation aux changements. Passionné de technologies TI fait en sorte que je suis toujours à jour dans les dernières tendances technologiques. Expert des logiciels libres. Connaissance approfondie des différents SEs, incluant Mac OS X, Windows PC, UNIX/Linux, Android & iOS. J'aimerais travailler dans un environment moderne et dynamique où j'aurai l'occasion de me garder à jour ainsi que mettre à contribution mes aptitudes et ma capacité de gérer plusieurs projets. Je suis présentement en train d'apprendre à maîtriser React.js"
+		value:"Honnête et fiable, autodidacte, soif d'apprendre et facilité d'adaptation aux changements. Passionné de technologies TI fait en sorte que je suis toujours à jour dans les dernières tendances technologiques. Expert des logiciels libres. Connaissance approfondie des différents SEs, incluant Mac OS X, Windows PC, UNIX/Linux, Android & iOS. Passionné de développement et standards web. J'aimerais travailler dans un environment moderne et dynamique où j'aurai l'occasion de me garder à jour ainsi que mettre à contribution mes aptitudes et ma capacité de gérer plusieurs projets. Je suis présentement en train d'apprendre à maîtriser React.js"
     },
     {
 		id: 7,
