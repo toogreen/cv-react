@@ -9,6 +9,7 @@ const ExperienceList = (props) => (
         <Experience 
 			key={item.id}
 			title={item.title}
+			subtitle={item.subtitle}
 			leftTitle={item.leftTitle}
 			leftList={item.leftList}
 			rightTitle={item.rightTitle}

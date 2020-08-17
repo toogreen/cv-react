@@ -6,7 +6,10 @@ function Experience(props) {
 	return(
 		<div className="experienceItem">
 
-			<h3>{props.title}</h3>
+			<h3>
+			<span className="expTitle">{props.title}&nbsp;&nbsp;</span>
+			<span className="expSubTitle">{props.subtitle}</span>
+			</h3>
 
 			<div className="subsection grid">
 

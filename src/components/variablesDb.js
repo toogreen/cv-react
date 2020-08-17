@@ -63,12 +63,12 @@ const variablesDb =  [
     {
 		id: 14,
 		name:"conclusion-en",
-		value:"That's about it for now! Hope you find this satisfactory to your needs. Don't hesitate to reach out! Thanks."
+		value:"That's about it for now! Don't hesitate to reach out! Thanks."
 	},
     {
 		id: 15,
 		name:"conclusion-fr",
-		value:"Voilà! J'espère que çelà satisfait votre curiosité. N'hésitez pas à me contacter si vous avez des questions! Merci."
+		value:"Voilà! N'hésitez pas à me contacter si vous avez des questions! Merci."
 	},
     {
 		id: 16,

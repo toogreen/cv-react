@@ -2,7 +2,8 @@ const ExperienceDb = [
         { 
             id: 1,
             lang: "en",
-            title: "McCarthy Tétrault – September 2014 to June 2020",
+            title: "McCarthy Tétrault",
+            subtitle: "Sep. 2014 to June 2020",
             leftTitle: "Webmaster, coordinator and CSS/jQuery/HTML5 Developer. My responsibilities included:",
             leftList: "<li>Maintaining the firm’s corporate and recruitment websites (production and design)</li><li>Primary contact and project manager for internal website requests</li><li>Primary contact with IT department for all web-related projects and liaising with vendors as required</li><li>Support for design and layout of electronic external (clients) and internal communications</li><li>Management of the firm-wide electronic event invitations process</li><li>Providing website metrics</li><li>Active participation in social media/online/technology related products</li>",
             rightTitle: "Some notable projects related to this position:",
@@ -11,7 +12,8 @@ const ExperienceDb = [
         { 
             id: 2,
             lang: "fr",
-            title: "McCarthy Tétrault – Septembre 2014 à juin 2020",
+            title: "McCarthy Tétrault",
+            subtitle: "Sep. 2014 à juin 2020",
             leftTitle: "Webmestre, coordinateur et développeur CSS/jQuery/HTML5. Mes responsabilitées incluaient:",
             leftList: "<li>Maintien des sites corpo et de recrutement de la firme (production et design)</li><li>Premier contact et gestionnaire de projet pour requêtes à l'interne</li><li>Premier contact avec le département des TIs pour tou projet relié au web et liaison avec les fournisseurs.</li><li>Support du design et mise en page des communiqués par courriel (clients) et communications internes</li><li>Gestion du processus des invitations électroniques</li><li>Analyse des données métriques</li><li>Participation active dans les réseaux sociaux et autres technologies émergeantes.</li>",
             rightTitle: "Quelques projets à souligner en lien avec ce poste :",
@@ -20,7 +22,8 @@ const ExperienceDb = [
         {
             id: 3,
             lang: "en",
-            title: "Softvoyage – November 2012 to March 2014",
+            title: "Softvoyage",
+            subtitle: "Nov. 2012 to Mar. 2014",
             leftTitle: "Web Designer and CSS/jQuery/HTML5 Developer. Worked on general graphic design as well as HTML5 development and UI design, with a special focus on mobile devices and responsive design. More recently started developing in-house web applications using PHP and MySQL/MariaDB. Most of the work was done on a Mac OS X client machine with code running on Linux servers (CentOS, RHLE).",
             leftList: "",
             rightTitle: "Some notable projects related to this position:",
@@ -29,7 +32,8 @@ const ExperienceDb = [
         {
             id: 4,
             lang: "fr",
-            title: "Softvoyage – Novembre 2012 à mars 2014",
+            title: "Softvoyage",
+            subtitle: "Nov. 2012 à mars 2014",
             leftTitle: "Designer web et développeur CSS/jQuery/HTML5. Travaillé sur des projets de design graphiques ainsi qu'à du développement et design UI, avec un focus particulier sur les appareils mobiles et le 'responsive design'. Aussi travaillé sur des projets plus backend avec PHP et MySQL, et WordPress. J'ai travaillé surtout sur Mac OS X mais en connection constante sur des serveurs Linux pour le code (CentOS, RHLE).",
             leftList: "",
             rightTitle: "Quelques projets à souligner en lien avec ce poste :",
@@ -38,7 +42,8 @@ const ExperienceDb = [
         {
             id: 5,
             lang: "en",
-            title: "Shanghai United International School — 2004-2012",
+            title: "Shanghai United International School",
+            subtitle: "2004-2012",
             leftTitle: "Cross-campus coordinator for a series of primary schools in Shanghai (Xiehe Education Group). I acted as an advisor, system administrator, facilitator and teacher. My tasks included managing the IT infrastructures across campuses and administrating the school’s web servers, databases, e-mail, FTP, Administration desk, etc. I have also deployed a Learning Management System (Moodle) and developed several web apps and databases for administrative functions (PHP+MySQL). On top of that, I was also providing technical support and training to teachers, as well as teaching ICT to primary and secondary school students. I followed the IB curriculum program as well as IPC and the English National Curriculum. You can consult some of my IB workshops attendance certificates by <a href='https://www.dropbox.com/sh/hh6ixhzowx8kle7/EMoi0MtSi-'>following this link</a>",
             leftList: "",
             rightTitle: "Some notable projects related to this position:",
@@ -47,7 +52,8 @@ const ExperienceDb = [
         {
             id: 6,
             lang: "fr",
-            title: "Shanghai United International School — 2004-2012",
+            title: "Shanghai United International School",
+            subtitle: "2004-2012",
             leftTitle: "Gestionnaire TI inter-campus pour une sérieu d'écoles primaires de Shanghai (Xiehe Education Group). J'ai agi en tant que conseiller, administrateur système, facilitateur TI, et enseignant. Mes tâches incluaient la gestion des infrastructures TI sur tous les campuses, l'administration des serveurs web, bases de données, serveur e-mail, FTP, système de gestion que j'ai en partie développé en PHP, etc. J'ai aussi mis-en-place un système d'enseignement à distance (Moodle) et développé des applis web pour les fonctions administratives (PHP+MySQL). Additionellement, j'ai aussi fourni du support technique et de la formation pour les enseignants, ainsi qu'enseigné les compétences ITC aux étudiants du primaire et secondaire. J'ai suivi le programme du curriculum IB ainsi qu'IPC (auparavant) et le 'English National Curriculum'. Vous pouvez consultez quelques-uns des certificats IB que j'ai acquis en <a href='https://www.dropbox.com/sh/hh6ixhzowx8kle7/EMoi0MtSi-'>suivant ce lien</a>",
             leftList: "",
             rightTitle: "Quelques projets à souligner en lien avec ce poste :",
