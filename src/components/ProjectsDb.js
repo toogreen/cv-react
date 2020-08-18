@@ -10,7 +10,7 @@ const ProjectsDb = [
     {
         id: 2,
         lang: "fr",
-        name: "www.toogreen.ca/china",
+        name: "www.toogreen.ca/lesavoir",
         url: "http://www.toogreen.ca/lesavoir",
         desc: "Un site web informatif un peu satirique que j'ai créé d'abord surtout pour pratiquer mes skills CSS. Le tout a commencé par une tentative de reproduire, 'from scratch', le look du journal Le Devoir. J'ai ensuite converti le tout en React.js et ajouté une base de données flat en backend. Tentez de rapetisser votre fureteur pour voir le responsive design en action, ainsi que le changement de logo pour s'accomoder à l'espace écran disponible. Voilà un excellent exemple de ce que l'on peut maintenant faire avec le CSS moderne et sans boilerplate. J'ai tout codé moi-même de A à Z, pas de CMS, ni Bootstrap fut utilisé. tout le code HTML, CSS et React par moi-même.",
         img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/Screen-Shot-2020-08-17-at-9.34.17-PM.png"
