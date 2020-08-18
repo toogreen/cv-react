@@ -139,11 +139,16 @@ header p{
 	}
 
 
-.experienceItem h4{
-	font-weight: normal;
-}
+	.experienceItem h4{
+		font-weight: normal;
+	}
+
+	.experienceItem .grid{
+		/* max-width: 1170px; */
+	}
 
 .subsection{
+	max-width: 1170px;
 	margin-top: 60px;
 	background-color: rgba(245,245,245,0.8);
 	padding: 15px;
