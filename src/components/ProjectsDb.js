@@ -2,18 +2,18 @@ const ProjectsDb = [
 	{
         id: 1,
         lang: "en",
-        name: "www.toogreen.ca/china",
-        url: "http://www.toogreen.ca/china",
-        desc: "An informative website I recently created to denounce censorship from China. I've now converted the whole thing to React.js. Try resizing the window smaller to see the responsive design in action, as well as the logo chaning to accomodate the mobile width space. This is a great example of what we can do now with modern CSS. All code from yours truly, no CMS, no Bootstrap was used. I coded both HTML and CSS by myself.",
-        img: "http://toogreen.ca/china-static/img/china.png"
+        name: "www.toogreen.ca/lesavoir",
+        url: "http://www.toogreen.ca/lesavoir",
+        desc: "An informative website I recently created to offer a more positive view on the current crisis. It started as an exercise to reproduce the look from 'Le Devoir' newspaper from scratch, but I thought might as well add in some interesting content as well. Hence how it was born. All code from yours truly, no CMS, no Bootstrap was used. I coded both HTML and CSS by myself, and then converted it to a React.js app.",
+        img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/Screen-Shot-2020-08-17-at-9.34.17-PM.png"
     },
     {
         id: 2,
         lang: "fr",
         name: "www.toogreen.ca/china",
-        url: "http://www.toogreen.ca/china",
-        desc: "Un site web informatif un peu satirique pour dénoncer certaines censures de la Chine que j'ai créé d'abord surtout pour pratiquer mes skills CSS. J'ai ensuite converti le tout en React.js et ajouté une base de données flat en backend. Tentez de rapetisser votre fureteur pour voir le responsive design en action, ainsi que le changement de logo pour s'accomoder à l'espace écran disponible. Voilà un excellent exemple de ce que l'on peut maintenant faire avec le CSS moderne et sans boilerplate. J'ai tout codé moi-même de A à Z, pas de CMS, ni Bootstrap fut utilisé. tout le code HTML, CSS et React par moi-même.",
-        img: "http://toogreen.ca/china-static/img/china.png"
+        url: "http://www.toogreen.ca/lesavoir",
+        desc: "Un site web informatif un peu satirique que j'ai créé d'abord surtout pour pratiquer mes skills CSS. Le tout a commencé par une tentative de reproduire, 'from scratch', le look du journal Le Devoir. J'ai ensuite converti le tout en React.js et ajouté une base de données flat en backend. Tentez de rapetisser votre fureteur pour voir le responsive design en action, ainsi que le changement de logo pour s'accomoder à l'espace écran disponible. Voilà un excellent exemple de ce que l'on peut maintenant faire avec le CSS moderne et sans boilerplate. J'ai tout codé moi-même de A à Z, pas de CMS, ni Bootstrap fut utilisé. tout le code HTML, CSS et React par moi-même.",
+        img: "http://toogreen.ca/blog/wp-content/uploads/2020/08/Screen-Shot-2020-08-17-at-9.34.17-PM.png"
 	},
 	{
         id: 3,
