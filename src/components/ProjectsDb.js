@@ -112,7 +112,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/avenirmd.png"
     },
     {
-        id: 13,
+        id: 15,
         lang: "en",
         name: "www.suis.com.cn",
         url: "https://www.suis.com.cn",
@@ -120,7 +120,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/suis.png"
     },
     {
-        id: 15,
+        id: 16,
         lang: "fr",
         name: "www.suis.com.cn",
         url: "https://www.suis.com.cn",
