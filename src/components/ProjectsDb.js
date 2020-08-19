@@ -68,7 +68,7 @@ const ProjectsDb = [
         lang: "en",
         name: "www.sirev.com",
         url: "https://www.sirev.com",
-        desc: "Softvoyage's travel agency search engine needed to be converted from a destkop-only website to a mobile-friendly app. I've done all the coding from scratch by myself with Bootstrap as a base. Used HTML5 and CSS3 at the best of their possibilities at the time to make this fully responsive.",
+        desc: "Softvoyage's travel agency search engine needed to be converted from a desktop-only website to a mobile-friendly app. I've done all the coding from scratch by myself with Bootstrap as a base. Used HTML5 and CSS3 at the best of their possibilities at the time to make this fully responsive.",
         img: "https://toogreen.ca/cv/img/projects/sirev/sirev.gif"
     },
 	{
