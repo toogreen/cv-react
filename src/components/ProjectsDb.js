@@ -62,9 +62,25 @@ const ProjectsDb = [
         url: "https://www.mtventures.ca",
         desc: "Similaire au site web ci-haut, this fut aussi conçu en peu de temps et avec un budget limité. Avec la collaboration de l'équipe design, j'ai utilisé Bootstrap pour mettre sur pied ce site en un temps record. ",
         img: "https://toogreen.ca/cv/img/websites/mtventures.png"
-	},
+    },
 	{
         id: 9,
+        lang: "en",
+        name: "www.sirev.com",
+        url: "https://www.sirev.com",
+        desc: "Softvoyage's travel agency search engine needed to be converted from a destkop-only website to a mobile-friendly app. I've done all the coding from scratch by myself with Bootstrap as a base. Used HTML5 and CSS3 at the best of their possibilities at the time to make this fully responsive.",
+        img: "https://toogreen.ca/cv/img/projects/sirev/sirev.gif"
+    },
+	{
+        id: 10,
+        lang: "fr",
+        name: "www.sirev.com",
+        url: "https://www.sirev.com",
+        desc: "L'engin de recherche pour agences de voyage (conçu par Softvoyage) avait besoin d'être converti d'une interface 'desktop-only' à une application 'responsive' qui s'adaptait autant aux ordinateurs de bureau qu'aux appareils mobiles. J'ai tout codé 'from scratch' par moi-même avec Bootstrap comme base. Utilisé les technologies HTML5 et CSS3 au maximum de leurs possibiliées modernes pour rendre ce site 100% 'responsive'.",
+        img: "https://toogreen.ca/cv/img/projects/sirev/sirev.gif"
+    },
+	{
+        id: 11,
         lang: "en",
         name: "www.softvoyage.com",
         url: "https://www.softvoyage.com",
@@ -72,7 +88,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/softvoyage.png"
     },
 	{
-        id: 10,
+        id: 12,
         lang: "fr",
         name: "www.softvoyage.com",
         url: "https://www.softvoyage.com",
@@ -80,7 +96,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/softvoyage.png"
     },
     {
-        id: 11,
+        id: 13,
         lang: "en",
         name: "www.avenirmd.com",
         url: "https://www.avenirmd.com",
@@ -88,7 +104,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/avenirmd.png"
     },
     {
-        id: 12,
+        id: 14,
         lang: "fr",
         name: "www.avenirmd.com",
         url: "https://www.avenirmd.com",
@@ -104,7 +120,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/suis.png"
     },
     {
-        id: 14,
+        id: 15,
         lang: "fr",
         name: "www.suis.com.cn",
         url: "https://www.suis.com.cn",
@@ -112,7 +128,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/suis.png"
     },
     {
-        id: 15,
+        id: 16,
         lang: "en",
         name: "Students Administration Desk",
         url: "",
@@ -120,7 +136,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/sad.png"
     },
     {
-        id: 16,
+        id: 17,
         lang: "fr",
         name: "Students Administration Desk",
         url: "",
@@ -128,7 +144,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/sad.png"
     },
     {
-        id: 17,
+        id: 18,
         lang: "en",
         name: "photojournaliste.ca",
         url: "",
@@ -136,7 +152,7 @@ const ProjectsDb = [
         img: "https://toogreen.ca/cv/img/projects/phil.png"
     },
     {
-        id: 18,
+        id: 19,
         lang: "fr",
         name: "photojournaliste.ca",
         url: "",
