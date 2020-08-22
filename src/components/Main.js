@@ -11,11 +11,12 @@ import ExperienceList from "./ExperienceList"
 class Main extends Component {
 
 	constructor() {
-		super()
+        super()
 		this.state = {
             lang: true,
-            curLang: "en"
+            curLang: "2"
         }
+
         this.toggleLang = this.toggleLang.bind(this);
 	}
 
@@ -48,12 +49,24 @@ class Main extends Component {
 
     render(){
 
+        const queryString = window.location.search;
+        console.log(queryString);
+
+
+        const params = new URLSearchParams(window.location.search)
+        for (const param of params) {
+          console.log(param)
+        }
+
+
         let curLang 
 		if (this.state.lang) {
 			curLang = "en"
 		} else {
 			curLang = "fr"
         }
+   
+        
         
 
         return(
@@ -61,7 +74,9 @@ class Main extends Component {
             <div>
                 <header>
 
+
                     <h1>Curriculum Vitae</h1>
+
                     <p>
                     {
                         // Link to PDF version
@@ -310,7 +325,7 @@ class Main extends Component {
 
                         </p>
                      </div>
-                    
+
                 </footer>
             </div>
         )

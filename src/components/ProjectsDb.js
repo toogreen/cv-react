@@ -1,4 +1,20 @@
 const ProjectsDb = [
+    {
+        id: -1,
+        lang: "en",
+        name: "www.toogreen.ca/instagreen",
+        url: "http://www.toogreen.ca/instagreen",
+        desc: "An instagram clone (still under construction) which I'm currently working on. All built using ReactJS and using Google Firebase as backend",
+        img: "https://toogreen.ca/cv/img/instagreen.png"
+    },
+    {
+        id: 0,
+        lang: "fr",
+        name: "www.toogreen.ca/instagreen",
+        url: "http://www.toogreen.ca/instagreen",
+        desc: "Un clone d'Instagram (toujours en construction) sur lequel je travaille présentement. Le tout en ReactJS et avec Firebase en backend",
+        img: "https://toogreen.ca/cv/img/instagreen.png"
+    },
 	{
         id: 1,
         lang: "en",
