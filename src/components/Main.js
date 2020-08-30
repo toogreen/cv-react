@@ -10,38 +10,49 @@ import ExperienceList from "./ExperienceList"
 
 class Main extends Component {
 
+    // Interval for refresh of data
+    interval = null;
+
 	constructor() {
         super()
 		this.state = {
             lang: true,
+            ProjectsDb: [],
             curLang: "2"
         }
 
         this.toggleLang = this.toggleLang.bind(this);
 	}
 
-	componentDidMount() {
-/* 		this.setState({loading: true})
-		fetch("http://toogreen.ca/json-test/SkillsDb.js")
-			.then(response => response.json())
-			.then(response => {
-				const {SkillsDb} = response.data
+/*    componentDidMount() {
+        // Every 60 seconds this fetch a new version of the data
+        this.interval = setInterval(this.getData, 60000);
 
-                this.setState({ allSkills: SkillsDb })
-                console.log(SkillsDb[0])
-            }) */
+        // Fetch data from getData function lower down
+        this.getData();
+    }   
 
-/*         Tabletop.init({
-            key: '2PACX-1vTpBf-g6irXcHsacKP8Z3Q1c3w9BlRY6OOyRagrVFyQ9talidbsFXHaWjNsdByFSGwRfJCRUlnsGpj7',
-            callback: googleData => {
-                this.setState({
-                  data: googleData
-                })
-              },
-              simpleSheet: true
-        }) */
-        
+    componentWillUnmount() {
+        clearInterval(this.interval);
     }
+
+
+    getData = () => {
+
+        fetch("http://localhost:3001/ProjectsDb")
+        //fetch("https://my-json-server.typicode.com/toogreen/myjsondata/db")
+            .then(response => response.json())
+            .then(response => {
+                
+                const data = response
+                //const data = response.ProjectsDb
+                
+                this.setState({ ProjectsDb: data })
+                
+            })
+
+    }*/
+
     
     toggleLang() {
         this.setState(prevState => ({ lang: !prevState.lang }));
