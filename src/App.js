@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-  	<Router basename="/cv-html">
+  	<Router>
 	    <div>
 	    	<Switch>
 	    		<Route path="/fr">
