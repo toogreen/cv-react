@@ -6,17 +6,16 @@ import ProjectsDb from "./ProjectsDb"
 import RenderHTML from "./RenderHTML"
 import RenderTXT from "./RenderTXT"
 import ExperienceList from "./ExperienceList"
-//import Tabletop from 'tabletop';
 
 class Main extends Component {
 
     // Interval for refresh of data
     interval = null;
 
-	constructor() {
+	constructor(props) {
         super()
 		this.state = {
-            lang: true,
+            lang: props.lang,
             ProjectsDb: [],
             curLang: "2"
         }

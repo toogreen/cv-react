@@ -1,5 +1,21 @@
 const ProjectsDb = [
     {
+        id: -3,
+        lang: "en",
+        name: "www.toogreen.ca/amazon",
+        url: "http://www.toogreen.ca/amazon",
+        desc: "An amazon clone which I'm currently working on. All built using ReactJS and using Google Firebase and Stripe as backends. Not finished implementing all features, but fully functional! Feel free to go ahead and test it out.",
+        img: "https://toogreen.ca/cv/img/amazon.png"
+    },
+    {
+        id: -2,
+        lang: "fr",
+        name: "www.toogreen.ca/amazon",
+        url: "http://www.toogreen.ca/amazon",
+        desc: "Un clone d'amazon sur lequel je travaille présentement. Le tout en ReactJS avec Firebase et Stripe en backends. Je n'ai pas terminé d'ajouter des fonctionalitées, mais le tout est pleinement fonctionel. N'hésitez pas à aller l'essayer.",
+        img: "https://toogreen.ca/cv/img/amazon.png"
+    },
+    {
         id: -1,
         lang: "en",
         name: "www.toogreen.ca/instagreen",
