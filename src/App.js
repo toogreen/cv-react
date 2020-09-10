@@ -11,17 +11,17 @@ function App() {
   	<Router>
 	    <div>
 	    	<Switch>
-	    		<Route path="/cv-html/fr">
+	    		<Route path="/cv_html/fr">
 	    			<Main 
 	    				lang={false}
 	    			/>
 	    		</Route>
-	    		<Route path="/cv-html/en">
+	    		<Route path="/cv_html/en">
 	    			<Main 
 	    				lang={true}
 	    			/>
 	    		</Route>
-	    		<Route path="/cv-html/">
+	    		<Route path="/cv_html/">
 	    			<Main
 	    				lang={getUserLocale().includes("en")} // Checks the browser's locale, if it contains "en", it will set to true (English)
 	    			/>
