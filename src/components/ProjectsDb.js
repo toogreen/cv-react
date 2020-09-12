@@ -3,7 +3,7 @@ const ProjectsDb = [
         id: -5,
         lang: "en",
         name: "www.toogreen.ca/weather",
-        url: "http://www.toogreen.ca/weather",
+        url: "https://toogreen.ca/weather",
         desc: "A very simple weather App which is fully PWA compatible (can be installed on your device or computer as a native app). Uses openweathermap API to fetch the data.",
         img: "https://toogreen.ca/cv/img/weather.png"
     },
@@ -11,7 +11,7 @@ const ProjectsDb = [
         id: -4,
         lang: "fr",
         name: "www.toogreen.ca/weather",
-        url: "http://www.toogreen.ca/weather",
+        url: "https://toogreen.ca/weather",
         desc: "Une application toute simple pour avoir la météo, mais c'est 100% PWA compatible (c'est à dire que vous pouvez l'installer comme une vraie application native sur votre appareil ou ordinateur). Elle utilise le API de openweathermap pour l'info de la météo.",
         img: "https://toogreen.ca/cv/img/weather.png"
     },
@@ -19,7 +19,7 @@ const ProjectsDb = [
         id: -3,
         lang: "en",
         name: "www.toogreen.ca/amazon",
-        url: "http://www.toogreen.ca/amazon",
+        url: "https://toogreen.ca/amazon",
         desc: "An amazon clone which I'm currently working on. All built using ReactJS and using Google Firebase and Stripe (yes, credit card payment) as backends. Not finished implementing all features, but fully functional! Feel free to go ahead and test it out.",
         img: "https://toogreen.ca/cv/img/amazon.png"
     },
@@ -27,7 +27,7 @@ const ProjectsDb = [
         id: -2,
         lang: "fr",
         name: "www.toogreen.ca/amazon",
-        url: "http://www.toogreen.ca/amazon",
+        url: "https://toogreen.ca/amazon",
         desc: "Un clone d'amazon sur lequel je travaille présentement. Le tout en ReactJS avec Firebase et Stripe (oui, avec paiement par carte de crédit) en backends. Je n'ai pas terminé d'ajouter des fonctionalitées, mais le tout est pleinement fonctionel. N'hésitez pas à aller l'essayer.",
         img: "https://toogreen.ca/cv/img/amazon.png"
     },
@@ -35,7 +35,7 @@ const ProjectsDb = [
         id: -1,
         lang: "en",
         name: "www.toogreen.ca/instagreen",
-        url: "http://www.toogreen.ca/instagreen",
+        url: "https://toogreen.ca/instagreen",
         desc: "An instagram clone which I'm currently working on. All built using ReactJS and using Google Firebase as backend. Not finished implementing all features, but fully functional! Feel free to go ahead and test it out.",
         img: "https://toogreen.ca/cv/img/instagreen.png"
     },
@@ -43,7 +43,7 @@ const ProjectsDb = [
         id: 0,
         lang: "fr",
         name: "www.toogreen.ca/instagreen",
-        url: "http://www.toogreen.ca/instagreen",
+        url: "https://toogreen.ca/instagreen",
         desc: "Un clone d'Instagram sur lequel je travaille présentement. Le tout en ReactJS et avec Firebase en backend. Je n'ai pas terminé d'ajouter des fonctionalitées, mais le tout est pleinement fonctionel. N'hésitez pas à aller l'essayer.",
         img: "https://toogreen.ca/cv/img/instagreen.png"
     },
