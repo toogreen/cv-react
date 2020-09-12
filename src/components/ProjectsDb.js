@@ -1,5 +1,21 @@
 const ProjectsDb = [
     {
+        id: -5,
+        lang: "en",
+        name: "www.toogreen.ca/weather",
+        url: "http://www.toogreen.ca/weather",
+        desc: "A very simple weather App which is fully PWA compatible (can be installed on your device or computer as a native app). Uses openweathermap API to fetch the data.",
+        img: "https://toogreen.ca/cv/img/weather.png"
+    },
+    {
+        id: -4,
+        lang: "fr",
+        name: "www.toogreen.ca/weather",
+        url: "http://www.toogreen.ca/weather",
+        desc: "Une application toute simple pour avoir la météo, mais c'est 100% PWA compatible (c'est à dire que vous pouvez l'installer comme une vraie application native sur votre appareil ou ordinateur). Elle utilise le API de openweathermap pour l'info de la météo.",
+        img: "https://toogreen.ca/cv/img/weather.png"
+    },
+    {
         id: -3,
         lang: "en",
         name: "www.toogreen.ca/amazon",
