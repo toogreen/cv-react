@@ -1,5 +1,21 @@
 const ProjectsDb = [
     {
+        id: -7,
+        lang: "en",
+        name: "www.toogreen.ca/greeting",
+        url: "https://toogreen.ca/greeting",
+        desc: "I recycled the code from my 'Meme Generator' to create a holiday card generator. This is a work in progress.",
+        img: "https://toogreen.ca/cv/img/greeting.png"
+    },
+    {
+        id: -6,
+        lang: "fr",
+        name: "www.toogreen.ca/greeting",
+        url: "https://toogreen.ca/greeting",
+        desc: "J'ai recyclé le code de mon 'Meme Generator' pour créer un générateur de carte de souhaits. C'est en dévelopemment.",
+        img: "https://toogreen.ca/cv/img/greeting.png"
+    },
+    {
         id: -5,
         lang: "en",
         name: "www.toogreen.ca/weather",
