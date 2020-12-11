@@ -7,7 +7,7 @@ function Project(props) {
         <div className="subsection grid2">
             <div className="left-column">
                 <a href={props.img} target="_blank" rel="noopener noreferrer">
-                    <img src={props.img} alt="Project Screenshot" />
+                    <img className="thumb" src={props.img} alt="Project Screenshot" />
                 </a>
             </div>
             <div className="right-column">
