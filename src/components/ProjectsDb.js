@@ -1,5 +1,21 @@
 const ProjectsDb = [
     {
+        id: -8,
+        lang: "en",
+        name: "www.toogreen.ca/imessage",
+        url: "https://toogreen.ca/imessage",
+        desc: "This is a clone of iMessage and my first app developed using React-Redux.",
+        img: "https://toogreen.ca/cv/img/imessage.png"
+    },
+    {
+        id: -8,
+        lang: "fr",
+        name: "www.toogreen.ca/imessage",
+        url: "https://toogreen.ca/imessage",
+        desc: "Un clone de iMessage et ma première application développée à l'aide de React-Redux.",
+        img: "https://toogreen.ca/cv/img/imessage.png"
+    },
+    {
         id: -7,
         lang: "en",
         name: "www.toogreen.ca/greeting",
