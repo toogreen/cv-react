@@ -1,5 +1,21 @@
 const ProjectsDb = [
     {
+        id: -13,
+        lang: "en",
+        name: "www.fdpgp.ca/bernier-drolet",
+        url: "https://www.fdpgp.ca/hhs/?lang=en",
+        desc: "This is another Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
+        img: "https://toogreen.ca/cv/img/hhs.png"
+    },
+    {
+        id: -12,
+        lang: "fr",
+        name: "www.fdpgp.ca/hhs",
+        url: "https://www.fdpgp.ca/hhs",
+        desc: "Un autre microsite que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
+        img: "https://toogreen.ca/cv/img/hhs.png"
+    },
+    {
         id: -11,
         lang: "en",
         name: "www.fdpgp.ca/hhs",
