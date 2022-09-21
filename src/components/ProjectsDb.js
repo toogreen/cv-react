@@ -10,7 +10,7 @@ const ProjectsDb = [
     {
         id: -12,
         lang: "fr",
-        name: "www.fdpgp.ca/hhs",
+        name: "www.fdpgp.ca/bernier-drolet",
         url: "https://www.fdpgp.ca/bernier-drolet",
         desc: "Un autre microsite que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
         img: "https://toogreen.ca/cv/img/bernier-drolet.png"
