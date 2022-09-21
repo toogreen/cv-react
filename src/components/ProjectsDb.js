@@ -21,7 +21,7 @@ const ProjectsDb = [
         name: "www.fdpgp.ca/hhs",
         url: "https://www.fdpgp.ca/hhs/?lang=en",
         desc: "This is a Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
-        img: "https://toogreen.ca/cv/img/hhs.png"
+        img: "https://toogreen.ca/cv/img/hhs-en.png"
     },
     {
         id: -10,
@@ -29,7 +29,7 @@ const ProjectsDb = [
         name: "www.fdpgp.ca/hhs",
         url: "https://www.fdpgp.ca/hhs",
         desc: "Un microsite que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
-        img: "https://toogreen.ca/cv/img/hhs.png"
+        img: "https://toogreen.ca/cv/img/hhs-fr.png"
     },
     {
         id: -9,
