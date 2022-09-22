@@ -4,7 +4,7 @@ const ProjectsDb = [
         lang: "en",
         name: "www.fdpgp.ca/bernier-drolet",
         url: "https://www.fdpgp.ca/bernier-drolet",
-        desc: "This is another Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
+        desc: "This is another responsive Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
         img: "https://toogreen.ca/cv/img/bernier-drolet.png"
     },
     {
@@ -12,7 +12,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "www.fdpgp.ca/bernier-drolet",
         url: "https://www.fdpgp.ca/bernier-drolet",
-        desc: "Un autre microsite que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
+        desc: "Un autre microsite responsive que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
         img: "https://toogreen.ca/cv/img/bernier-drolet.png"
     },
     {
@@ -20,7 +20,7 @@ const ProjectsDb = [
         lang: "en",
         name: "www.fdpgp.ca/hhs",
         url: "https://www.fdpgp.ca/hhs/?lang=en",
-        desc: "This is a Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
+        desc: "This is a fully responsive Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
         img: "https://toogreen.ca/cv/img/hhs-en.png"
     },
     {
@@ -28,7 +28,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "www.fdpgp.ca/hhs",
         url: "https://www.fdpgp.ca/hhs",
-        desc: "Un microsite que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
+        desc: "Un microsite responsive que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
         img: "https://toogreen.ca/cv/img/hhs-fr.png"
     },
     {
