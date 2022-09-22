@@ -7,7 +7,7 @@ const ExperienceDb = [
             leftTitle: "Webmaster, administrator of web platforms and CSS/jQuery/HTML5 Developer. My responsibilities include:",
             leftList: "<li>Management of the corporate website and client zone</li><li>Primary contact with IT department for all web-related projects and liaising with vendors as required</li><li>Providing website metrics</li><li>Creating forms with online payments and connected to local databases</li><li>Developing custom Microsites</li>",
             rightTitle: "Some notable projects related to this position:",
-            rightList: "<li><strong><a href='https://www.fdpgp.ca/hhs/' target='_blank' rel='noopener noreferrer'>HHS</a></strong> & <strong><a href='https://www.fdpgp.ca/bernier-drolet/'>Bernier-Drolet</a> teams' microsites</strong><br />Based on a design produced by our graphic designers, I've coded these 2 microsites 'by hand' using HTML, CSS & JavaScript.</li><li>Graphical revamp of our main website at <a href='https://www.fdpgp.ca'>www.fdpgp.ca</a></li>"
+            rightList: "<li><strong><a href='https://www.fdpgp.ca/hhs/' target='_blank' rel='noopener noreferrer'>HHS</a></strong> & <strong><a href='https://www.fdpgp.ca/bernier-drolet/'>Bernier-Drolet</a> teams' microsites</strong><br />Based on a design produced by our graphic designers, I've coded these 2 responsive microsites 'by hand' using HTML, CSS & JavaScript.</li><li>Graphical revamp of our main website at <a href='https://www.fdpgp.ca'>www.fdpgp.ca</a></li>"
         },
         { 
             id: 0,
