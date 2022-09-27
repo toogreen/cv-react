@@ -11,7 +11,7 @@ function Footer(props){
             <div className="container">
 
                 <p  dangerouslySetInnerHTML={{ __html: footertext.value }}></p>
-                <p>&copy; David Gagnon 2020 - This CV was built entirely on <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React.js</a></p>	
+                <p>&copy; David Gagnon - This CV was built entirely on <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React.js</a></p>
             </div>
             
         </div>

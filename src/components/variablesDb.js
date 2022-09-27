@@ -73,12 +73,12 @@ const variablesDb =  [
     {
 		id: 16,
 		name:"footer-text-en",
-		value:"&copy; David Gagnon 2020 - This CV was entirely built using the <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a> framework"
+		value:"&copy; David Gagnon 2022 - This CV was entirely built using the <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a> framework"
 	},
     {
 		id: 17,
 		name:"footer-text-fr",
-		value:"&copy; David Gagnon 2020 - Ce CV a été entièrement conçu avec le 'framework' <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
+		value:"&copy; David Gagnon 2022 - Ce CV a été entièrement conçu avec le 'framework' <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>"
     }
 ];
 export default variablesDb
