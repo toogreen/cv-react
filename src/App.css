@@ -83,10 +83,15 @@ header p{
 		box-shadow: 2px 2px 2px #888888;
 		cursor: pointer;
 		/* background: rgba(0, 148, 20, 80%); */
-		background-color:rgba(0, 155, 0, 50%);
+		background-color:rgba(0, 155, 0, 10%);
 		color: black;
 		border: none;
 	}
+
+	.lang button:hover{
+		background-color:rgba(0, 155, 0, 30%);
+	}
+
 
 .nom{
 	font-size: 2em;
