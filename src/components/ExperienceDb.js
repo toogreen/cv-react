@@ -15,7 +15,7 @@ const ExperienceDb = [
             title: "fdp (Financière des professionnnels)",
             subtitle: "Fév. 2021 à présent",
             leftTitle: "Webmestre, administrateur des plateformes web et développeur CSS/jQuery/HTML5. Mes responsabilitées incluent:",
-            leftList: "<li>Maintien des sites corpo et de la zone client</li><li>Premier contact avec le département des TIs pour tou projet relié au web et liaison avec les fournisseurs.</li><li>Analyse des données métriques</li><li>Création de formulaires avec paiement en ligne et connexion à bases de données internes</li><li>Développement de micro-sites</li>",
+            leftList: "<li>Maintien des sites corpo et de la zone client</li><li>Premier contact avec le département des TIs pour tout projet relié au web et liaison avec les fournisseurs.</li><li>Analyse des données métriques</li><li>Création de formulaires avec paiement en ligne et connexion à bases de données internes</li><li>Développement de micro-sites</li>",
             rightTitle: "Quelques projets à souligner en lien avec ce poste :",
             rightList: "<li><strong>Èquipes <a href='https://www.fdpgp.ca/hhs/' target='_blank' rel='noopener noreferrer'>HHS</a></strong> et <strong><a href='https://www.fdpgp.ca/bernier-drolet/'>Bernier-Drolet</a></strong><br />Basé sur un design produit par nos graphistes, j'ai entièrement créé ces 2 sites responsive 'à bras' avec les technos HTML, CSS et JavaScript.</li><li>Redesign graphique du site web principal à <a href='https://www.fdpgp.ca'>www.fdpgp.ca</a></li>"
         },
