@@ -178,7 +178,7 @@ class Main extends Component {
                                 <p><strong className="nom">David Gagnon</strong><br />
                                 550, {!this.state.lang && "rue"} Jean D'Estrées, apt. 204<br />
                                 H3C 6W1, Montréal<br />
-                            {this.state.lang? "Mobile" : "Cellulaire"}: <a href="tel:438-985-5500"></a>(438) 985-5500</p>
+                            {this.state.lang? "Mobile" : "Cellulaire"}: <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a></p>
                             </div>
                         </div>
                 
@@ -316,7 +316,7 @@ class Main extends Component {
                     </div>
                 
                     <div className="container">
-                        <h3>
+                        <h3 className="conclusion">
                            <RenderTXT
                                 data={this.state}
                                 itemName="conclusion"
