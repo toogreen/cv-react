@@ -143,12 +143,12 @@ header p {
 	align-items: center;
 	justify-content: center;
 	flex: 0 0 auto;
-	width: 34px;
-	height: 34px;
+	width: 30px;
+	height: 30px;
 	padding: 0;
 	border-radius: 999px;
-	background: rgba(255, 255, 255, 0.7);
-	border: 1px solid var(--border);
+	background: #fff;
+	border: none;
 	box-shadow: 0 8px 15px rgba(17, 24, 39, 0.03);
 	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -158,11 +158,12 @@ header p {
 	box-shadow: 0 12px 22px rgba(17, 24, 39, 0.08);
 }
 
-.social-icons {
-	width: 18px;
-	height: 18px;
+.social img {
+	width: 23px;
+	height: 23px;
 	object-fit: contain;
 	display: block;
+	filter: invert(39%) sepia(19%) saturate(1100%) hue-rotate(92deg) brightness(92%) contrast(87%);
 }
 
 .section {
@@ -384,15 +385,12 @@ footer .container {
 	}
 
 	.social {
-		width: 20%;
+		width: fit-content;
+		max-width: 100%;
 		display: flex;
 		flex-wrap: nowrap;
 		gap: 6px;
-		justify-content: space-between;
-	}
-
-	.social-icons {
-		width: 30px;
+		justify-content: flex-start;
 	}
 
 	.experienceItem h3 {
@@ -414,5 +412,33 @@ footer .container {
 
 	.left-column {
 		border-right: 1px solid rgba(100,100,100,0.15);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.social {
+		gap: 5px;
+	}
+
+	.social a {
+		width: 27px;
+		height: 27px;
+	}
+
+	.social img {
+		width: 21px;
+		height: 21px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.social a {
+		width: 34px;
+		height: 34px;
+	}
+
+	.social img {
+		width: 26px;
+		height: 26px;
 	}
 }

@@ -13,7 +13,7 @@ const variablesDb =  [
     {
 		id: 3,
 		name:"link-to-linkedin-en",
-		value:"<strong>LinkedIn:</strong>&nbsp;<a href='https://www.linkedin.com/in/toogreen'>/in/toogreen</a><br /><strong>E-mail:&nbsp;</strong><a href='mailto:toogreen@gmail.com'>toogreen@gmail.com</a><br /><strong>Website: </strong><a href='https://toogreen.ca'>toogreen.ca</a>"
+		value:"<strong>LinkedIn:</strong>&nbsp;<a href='https://www.linkedin.com/in/toogreen'>/in/toogreen</a><br /><strong>E&#8209;mail:&nbsp;</strong><a href='mailto:toogreen@gmail.com'>toogreen@gmail.com</a><br /><strong>Website: </strong><a href='https://toogreen.ca'>toogreen.ca</a>"
     },
     {
 		id: 4,
