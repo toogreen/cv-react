@@ -79,263 +79,233 @@ class Main extends Component {
         
         
 
+        const en = this.state.lang
+        const pdfUrl = en
+            ? "https://toogreen.ca/cv/Resume-DavidGagnon-English.pdf"
+            : "https://toogreen.ca/cv/Resume-DavidGagnon-Francais.pdf"
+
+        const socials = [
+            { name: "LinkedIn", url: "https://www.linkedin.com/in/toogreen/", icon: "linkedin" },
+            { name: "Twitter", url: "https://twitter.com/2green", icon: "twitter" },
+            { name: "Instagram", url: "https://www.instagram.com/tougrine/", icon: "instagram" },
+            { name: "Behance", url: "https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1", icon: "behance" },
+            { name: "GitHub", url: "https://github.com/toogreen", icon: "github" },
+            { name: "YouTube", url: "https://www.youtube.com/user/toogreen/", icon: "youtube" }
+        ]
+
+        const navItems = [
+            { id: "profile", label: en ? "Profile" : "Profil" },
+            { id: "experience", label: en ? "Experience" : "Expérience" },
+            { id: "education", label: en ? "Education" : "Éducation" },
+            { id: "skills", label: en ? "Skills" : "Compétences" },
+            { id: "portfolio", label: "Portfolio" },
+            { id: "projects", label: en ? "Projects" : "Projets" }
+        ]
+
+        const logos = ["varsity", "iqi", "haiguish", "divercity"]
+
+        const websites = [
+            "websites/mtventures",
+            "projects/softvoyage",
+            "projects/avenirmd",
+            "websites/futureid",
+            "websites/vallee",
+            "websites/wearth"
+        ]
+
         return(
 
             <div>
-                <header>
-
-
-                    <h1>Curriculum Vitae</h1>
-
-                    <p>
-                    {
-                        // Link to PDF version
-                    }
-                        <RenderHTML
-                            data={this.state}
-                            itemName="link-to-pdf"
-                        />
-                    </p>
-
-                    
-                </header>
-
-                <main>
-
-                    <div className="container">
-
-                    <div className="lang">
-                        <button onClick={this.toggleLang}>{this.state.lang ? "FR" : "EN" }</button>
+                <nav className="topbar no-print">
+                    <div className="container topbar-inner">
+                        <a className="brand" href="#top">DG</a>
+                        <ul className="nav-links">
+                            {navItems.map(item => (
+                                <li key={item.id}><a href={"#" + item.id}>{item.label}</a></li>
+                            ))}
+                        </ul>
+                        <div className="lang">
+                            <button onClick={this.toggleLang} aria-label={en ? "Passer en français" : "Switch to English"}>
+                                {en ? "FR" : "EN"}
+                            </button>
+                        </div>
                     </div>
+                </nav>
 
+                <header id="top">
+                    <div className="container">
+                        <div className="hero">
+                            <div className="hero-main">
+                                <p className="eyebrow">Curriculum Vitae</p>
+                                <h1 className="nom">David Gagnon</h1>
+                                <p className="hero-role">
+                                    {en
+                                        ? "Webmaster · Front-End Developer · System Administrator"
+                                        : "Webmestre · Développeur Front-End · Administrateur système"}
+                                </p>
 
-                    {
-                        //top part - Contact info
-                    }	
-                        <div className="grid3">
-                            <div id="top-left">
-                
-                
-                                {
-                                    //Social Media Links here
-                                }
                                 <div className="social no-print">
-                
-                
-                                    { 
-                                    // LinkedIn 
-                                    }
-                                    <a className="social-icons"
-                                    href="https://www.linkedin.com/in/toogreen/" target="_blank" rel="noopener noreferrer">
-                                        <img alt="LinkedIn Social Media Icon" className="invert" src="https://toogreen.ca/cv/img/hollow-cut-linkedin.svg" />
+                                    {socials.map(s => (
+                                        <a key={s.icon} className="social-icons" href={s.url} target="_blank" rel="noopener noreferrer" aria-label={s.name}>
+                                            <img alt={s.name + " Social Media Icon"} src={"https://toogreen.ca/cv/img/hollow-cut-" + s.icon + ".svg"} />
+                                        </a>
+                                    ))}
+                                </div>
+
+                                <div className="hero-actions no-print">
+                                    <a className="btn btn-primary" href={pdfUrl} target="_blank" rel="noopener noreferrer">
+                                        {en ? "Download PDF version" : "Télécharger la version PDF"}
                                     </a>
-                
-                                    { 
-                                    // Twitter 
-                                    }
-                                    <a className="social-icons" href="https://twitter.com/2green" target="_blank" rel="noopener noreferrer">
-                                        <img alt="Twitter Social Media Icon" className="invert" src="https://toogreen.ca/cv/img/hollow-cut-twitter.svg" />
-                                    </a>
-                
-                                    { 
-                                    // Instagram 
-                                    }
-                                    <a className="social-icons" href="https://www.instagram.com/tougrine/" target="_blank" rel="noopener noreferrer">
-                                        <img alt="Instagram Social Media Icon" className="invert" src="https://toogreen.ca/cv/img/hollow-cut-instagram.svg" />
-                                    </a>
-                
-                                    { 
-                                    // Behance 
-                                    }
-                                    <a className="social-icons" href="https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1" target="_blank" rel="noopener noreferrer">
-                                        <img alt="Behance Social Media Icon" className="invert" src="https://toogreen.ca/cv/img/hollow-cut-behance.svg" />
-                                    </a>
-                                    
-                                    { 
-                                    // GitHub 
-                                    }
-                                    <a className="social-icons" href="https://github.com/toogreen" target="_blank" rel="noopener noreferrer">
-                                        <img alt="GitHub Social Media Icon" src="https://toogreen.ca/cv/img/hollow-cut-github.svg" />
-                                    </a>
-                
-                                    { 
-                                    // YouTube 
-                                    }
-                                    <a className="social-icons" href="https://www.youtube.com/user/toogreen/" target="_blank" rel="noopener noreferrer">
-                                        <img alt="YouTube Social Media Icon" src="https://toogreen.ca/cv/img/hollow-cut-youtube.svg" />
+                                    <a className="btn btn-ghost" href="mailto:toogreen@gmail.com">
+                                        {en ? "Get in touch" : "Me contacter"}
                                     </a>
                                 </div>
-                                
+                            </div>
+
+                            <div className="hero-contact">
                                 <p>
                                     <RenderHTML 
                                         data={this.state}
                                         itemName="link-to-linkedin"
                                     />
                                 </p>
-
-                            </div>
-                            <div id="top-right">
-                                <p><strong className="nom">David Gagnon</strong><br />
-                                550, {!this.state.lang && "rue"} Jean D'Estrées, apt. 204<br />
-                                H3C 6W1, Montréal<br />
-                            {this.state.lang? "Mobile" : "Cellulaire"}: <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a></p>
+                                <p>
+                                    550, {!en && "rue"} Jean D'Estrées, apt. 204<br />
+                                    H3C 6W1, Montréal<br />
+                                    <strong>{en ? "Mobile" : "Cellulaire"}:</strong> <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a>
+                                </p>
                             </div>
                         </div>
-                
-                
-                
-                { 
-                // Profile 
-                }
-                
-                        <div className="section">
-                
-                            <h2>{this.state.lang? "Profile" : "Profil"}</h2>
+                    </div>
+                </header>
 
-                            <p>
+                <main>
+
+                    <div className="container">
+
+                        <section className="section" id="profile">
+                            <h2>{en ? "Profile" : "Profil"}</h2>
+                            <p className="lead">
                                 <RenderTXT
                                     data={this.state}
                                     itemName="profile"
                                 />
                             </p>
+                        </section>
 
-                
-                        </div>
-                
-                { 
-                // Experience
-                }
-                
-                
-                        <div className="section" id="experience">
-                
-                            <h2>{this.state.lang ? "Experience" : "Expérience"}</h2>
-                            
-                            <ExperienceList
-                                data={this.state}
-                                language={curLang}
-                            />
-                        </div>
-                
-                
-                        <div className="section">
-                            <h2>{this.state.lang? "Education" : "Éducation"} </h2>
-                            <h3>
-                                {
-                                    this.state.lang
-                                    ? 
-                                    "Rochebelle Professional Formation Center, Québec City — DEP" 
-                                    :
-                                    "Centre de formation professionnelle de Rochebelle, Québec - DEP"
-                                }
-                                </h3>
-                            <p>
-                                <RenderTXT
+                        <section className="section" id="experience">
+                            <h2>{en ? "Experience" : "Expérience"}</h2>
+                            <div className="timeline">
+                                <ExperienceList
                                     data={this.state}
-                                    itemName="edu"
+                                    language={curLang}
                                 />
-                            </p>
-                        </div>
-                    
-                        <div className="section" id="skills">
-                            <h2>{this.state.lang? "Skills & Qualifications" : "Atouts et compétences"} </h2>
-                
-                            <SkillsList
-                                data={SkillsDb}
-                                language={curLang}
-                            />
-                
-                        </div>
-                
-                
-                        <div className="section" id="portfolio">
-                            
-                            <h2>Portfolio</h2>
-                
-                            <h3>Logos</h3>
-                
-                            <div className="subsection">
-                                <img alt="Logo from Portfolio" src="https://toogreen.ca/cv/img/logos/varsity.png" />
-                                <img alt="Logo from Portfolio" src="https://toogreen.ca/cv/img/logos/iqi.png" />
-                                <img alt="Logo from Portfolio" src="https://toogreen.ca/cv/img/logos/haiguish.png" />
-                                <img alt="Logo from Portfolio" src="https://toogreen.ca/cv/img/logos/divercity.png" />
                             </div>
-                
-                            <h3>{this.state.lang? "Websites" : "Sites web"}</h3>
-                
+                        </section>
+
+                        <section className="section" id="education">
+                            <h2>{en ? "Education" : "Éducation"}</h2>
+                            <div className="subsection">
+                                <h3>
+                                    {
+                                        en
+                                        ? 
+                                        "Rochebelle Professional Formation Center, Québec City — DEP" 
+                                        :
+                                        "Centre de formation professionnelle de Rochebelle, Québec - DEP"
+                                    }
+                                </h3>
+                                <p>
+                                    <RenderTXT
+                                        data={this.state}
+                                        itemName="edu"
+                                    />
+                                </p>
+                            </div>
+                        </section>
+                    
+                        <section className="section" id="skills">
+                            <h2>{en ? "Skills & Qualifications" : "Atouts et compétences"}</h2>
+                            <div className="skills-grid">
+                                <SkillsList
+                                    data={SkillsDb}
+                                    language={curLang}
+                                />
+                            </div>
+                        </section>
+
+                        <section className="section" id="portfolio">
+                            <h2>Portfolio</h2>
+
+                            <h3>Logos</h3>
+                            <div className="logo-grid">
+                                {logos.map(logo => (
+                                    <div className="logo-tile" key={logo}>
+                                        <img alt="Logo from Portfolio" src={"https://toogreen.ca/cv/img/logos/" + logo + ".png"} />
+                                    </div>
+                                ))}
+                            </div>
+
+                            <h3>{en ? "Websites" : "Sites web"}</h3>
                             <p>
                                 <RenderTXT
                                     data={this.state}
                                     itemName="websites"
                                 />
-                                <br />
+                                {" "}
                                 <a href="https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1" target="_blank" rel="noopener noreferrer">
-                                https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1</a>
+                                    {en ? "View on Behance →" : "Voir sur Behance →"}
+                                </a>
                             </p>
-                
-                            <div className="subsection">
-                                <a href="https://toogreen.ca/cv/img/websites/mtventures.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/websites/mtventures.png" />
-                                </a>
-                                <a href="https://toogreen.ca/cv/img/projects/softvoyage.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/projects/softvoyage.png" />
-                                </a>
-                                <a href="https://toogreen.ca/cv/img/projects/avenirmd.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/projects/avenirmd.png" />
-                                </a>
-                                <a href="https://toogreen.ca/cv/img/websites/futureid.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/websites/futureid.png" />
-                                </a>
-                                <a href="https://toogreen.ca/cv/img/websites/vallee.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/websites/vallee.png" />
-                                </a>
-                                <a href="https://toogreen.ca/cv/img/websites/wearth.png" target="_blank" rel="noopener noreferrer">
-                                    <img alt="Website Link" src="https://toogreen.ca/cv/img/websites/wearth.png" />
-                                </a>
+
+                            <div className="gallery">
+                                {websites.map(site => {
+                                    const src = "https://toogreen.ca/cv/img/" + site + ".png"
+                                    return (
+                                        <a key={site} href={src} target="_blank" rel="noopener noreferrer">
+                                            <img alt="Website Link" src={src} loading="lazy" />
+                                        </a>
+                                    )
+                                })}
                             </div>
-                        </div>
-                
-                        <div className="section" id="projects">
-                
-                            <h2>{this.state.lang? "Projects" : "Projets"}</h2>
+                        </section>
+
+                        <section className="section" id="projects">
+                            <h2>{en ? "Projects" : "Projets"}</h2>
                             <p>
                                 <RenderTXT
                                     data={this.state}
                                     itemName="projects"
-                                />                               
+                                />
                             </p>
-                
-                            <ProjectsList
-                                db={ProjectsDb}
-                                language={curLang}
-                            />
-                            
-                        </div>
-                
-                
+                            <div className="projects-grid">
+                                <ProjectsList
+                                    db={ProjectsDb}
+                                    language={curLang}
+                                />
+                            </div>
+                        </section>
+
                     </div>
                 
                     <div className="container">
-                        <h3 className="conclusion">
+                        <p className="conclusion">
                            <RenderTXT
                                 data={this.state}
                                 itemName="conclusion"
                            />
-                        </h3>
+                        </p>
                     </div>
                 </main>
                 <footer>
                     <div className="container">
-
                         <p>
                             <RenderHTML 
                                 data={this.state}
                                 itemName="footer-text"
                             />
-
                         </p>
-                     </div>
-
+                    </div>
                 </footer>
             </div>
         )

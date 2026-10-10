@@ -7,7 +7,7 @@ function Experience(props) {
 		<div className="experienceItem">
 
 			<h3>
-			<span className="expTitle">{props.title}&nbsp;&nbsp;</span>
+			<span className="expTitle">{props.title}</span>
 			<span className="expSubTitle">{props.subtitle}</span>
 			</h3>
 
