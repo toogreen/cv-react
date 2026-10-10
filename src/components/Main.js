@@ -88,7 +88,7 @@ class Main extends Component {
             { name: "LinkedIn", url: "https://www.linkedin.com/in/toogreen/", icon: "linkedin" },
             { name: "Twitter", url: "https://www.x.com/2gr33n", icon: "twitter" },
             { name: "Instagram", url: "https://www.instagram.com/tougrine/", icon: "instagram" },
-            { name: "Behance", url: "https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1", icon: "behance" },
+            { name: "Behance", url: "https://www.behance.net/portfolio/editor?project_id=4606221", icon: "behance" },
             { name: "GitHub", url: "https://github.com/toogreen", icon: "github" },
             { name: "YouTube", url: "https://www.youtube.com/user/toogreen/", icon: "youtube" }
         ]
