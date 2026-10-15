@@ -383,7 +383,8 @@ header {
 
 .lead {
 	font-size: 1.12rem;
-	max-width: 70ch;
+	/* max-width: 70ch; */
+	max-width: 100%;
 }
 
 .subsection {
