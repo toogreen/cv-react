@@ -147,6 +147,13 @@ class Main extends Component {
                                         : "Webmestre · Développeur Front-End · Administrateur système"}
                                 </p>
 
+                                <p className="hero-address">
+                                    550, {!en && "rue"} Jean D'Estrées, apt. 204<br />
+                                    H3C 6W1, Montréal<br />
+                                    <strong>{en ? "Mobile" : "Cellulaire"}:</strong> <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a><br />
+                                    <strong>Web:</strong> <a href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">toogreen.ca</a>
+                                </p>
+
                                 <div className="social no-print">
                                     {socials.map(s => (
                                         <a key={s.icon} className="social-icons" href={s.url} target="_blank" rel="noopener noreferrer" aria-label={s.name}>
@@ -166,17 +173,9 @@ class Main extends Component {
                             </div>
 
                             <div className="hero-contact">
-                                <p>
-                                    <RenderHTML 
-                                        data={this.state}
-                                        itemName="link-to-linkedin"
-                                    />
-                                </p>
-                                <p>
-                                    550, {!en && "rue"} Jean D'Estrées, apt. 204<br />
-                                    H3C 6W1, Montréal<br />
-                                    <strong>{en ? "Mobile" : "Cellulaire"}:</strong> <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a>
-                                </p>
+                                <a className="hero-qr" href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">
+                                    <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src="https://toogreen.ca/cv/img/toogreen-qr.png" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -302,13 +301,6 @@ class Main extends Component {
                 </main>
                 <footer>
                     <div className="container">
-                        <a className="footer-qr" href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">
-                            <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src="https://toogreen.ca/cv/img/toogreen-qr.png" />
-                            <span>
-                                <small>{en ? "Scan to visit my website" : "Balayez pour visiter mon site"}</small>
-                                toogreen.ca
-                            </span>
-                        </a>
                         <p>
                             <RenderHTML 
                                 data={this.state}
