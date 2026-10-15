@@ -1,5 +1,53 @@
 const ProjectsDb = [
     {
+        id: -19,
+        lang: "en",
+        name: "Jill Vidal demo promo site",
+        url: "https://toogreen.ca/jill-vidal/",
+        desc: "Experiment with Claude AI to create a demo promo site for Jill Vidal, a singer-songwriter from Montreal. The site is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
+    },
+    {
+        id: -18,
+        lang: "fr",
+        name: "Site promo démo Jill Vidal",
+        url: "https://toogreen.ca/jill-vidal/",
+        desc: "Expérimentation avec Claude AI pour créer un site promo démo pour Jill Vidal, une auteure-compositrice-interprète de Montréal. Le site est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
+    },
+    {
+        id: -17,
+        lang: "en",
+        name: "chifan.ca",
+        url: "https://chifan.ca",
+        desc: "Copilot + Claude AI assisted project for an app to find Chinese authentic restaurants in Montreal. The app is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
+    },
+    {
+        id: -16,
+        lang: "fr",
+        name: "chifan.ca",
+        url: "https://chifan.ca",
+        desc: "Projet assisté par Copilot + Claude AI pour une application de recherche de restaurants chinois authentiques à Montréal. L'application est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
+    },
+    {
+        id: -15,
+        lang: "en",
+        name: "loocal.ca",
+        url: "https://loocal.ca",
+        desc: "Copilot assisted project for an app to find toilets in Montréal. The app is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
+    },
+    {
+        id: -14,
+        lang: "fr",
+        name: "loocal.ca",
+        url: "https://loocal.ca",
+        desc: "Projet d’appli codée avec Copilot pour trouver des toilettes à Montréal. L’appli est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
+    },
+    {
         id: -13,
         lang: "en",
         name: "www.fdpgp.ca/bernier-drolet",
