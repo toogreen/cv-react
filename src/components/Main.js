@@ -177,13 +177,6 @@ class Main extends Component {
                                     H3C 6W1, Montréal<br />
                                     <strong>{en ? "Mobile" : "Cellulaire"}:</strong> <a href="tel:438-985-5500" aria-label="Call (438) 985-5500">(438) 985-5500</a>
                                 </p>
-                                <a className="hero-qr" href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">
-                                    <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src="https://toogreen.ca/cv/img/toogreen-qr.png" />
-                                    <span>
-                                        <small>{en ? "Scan to visit my website" : "Balayez pour visiter mon site"}</small>
-                                        toogreen.ca
-                                    </span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -309,6 +302,13 @@ class Main extends Component {
                 </main>
                 <footer>
                     <div className="container">
+                        <a className="footer-qr" href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">
+                            <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src="https://toogreen.ca/cv/img/toogreen-qr.png" />
+                            <span>
+                                <small>{en ? "Scan to visit my website" : "Balayez pour visiter mon site"}</small>
+                                toogreen.ca
+                            </span>
+                        </a>
                         <p>
                             <RenderHTML 
                                 data={this.state}
