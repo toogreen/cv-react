@@ -105,6 +105,9 @@ class Main extends Component {
         const logos = ["varsity", "iqi", "haiguish", "divercity"]
 
         const websites = [
+            "websites/jillvidal",
+            "websites/chifan",
+            "websites/loocal",
             "websites/mtventures",
             "projects/softvoyage",
             "projects/avenirmd",

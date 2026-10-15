@@ -5,7 +5,7 @@ const ProjectsDb = [
         name: "Jill Vidal demo promo site",
         url: "https://toogreen.ca/jill-vidal/",
         desc: "Experiment with Claude AI to create a demo promo site for Jill Vidal, a singer-songwriter from Montreal. The site is fully responsive.",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
+        img: "https://toogreen.ca/cv/img/websites/jillvidal.png"
     },
     {
         id: -18,
@@ -13,7 +13,7 @@ const ProjectsDb = [
         name: "Site promo démo Jill Vidal",
         url: "https://toogreen.ca/jill-vidal/",
         desc: "Expérimentation avec Claude AI pour créer un site promo démo pour Jill Vidal, une auteure-compositrice-interprète de Montréal. Le site est entièrement responsive.",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
+        img: "https://toogreen.ca/cv/img/websites/jillvidal.png"
     },
     {
         id: -17,
@@ -21,7 +21,7 @@ const ProjectsDb = [
         name: "chifan.ca",
         url: "https://chifan.ca",
         desc: "Copilot + Claude AI assisted project for an app to find Chinese authentic restaurants in Montreal. The app is fully responsive and can be installed as a standard PWA (Progressive Web App).",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
+        img: "https://toogreen.ca/cv/img/websites/chifan.png"
     },
     {
         id: -16,
@@ -29,7 +29,7 @@ const ProjectsDb = [
         name: "chifan.ca",
         url: "https://chifan.ca",
         desc: "Projet assisté par Copilot + Claude AI pour une application de recherche de restaurants chinois authentiques à Montréal. L'application est entièrement responsive et installable comme une Appli standard PWA (Progressive Web App).",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
+        img: "https://toogreen.ca/cv/img/websites/chifan.png"
     },
     {
         id: -15,
@@ -37,7 +37,7 @@ const ProjectsDb = [
         name: "loocal.ca",
         url: "https://loocal.ca",
         desc: "Copilot assisted project for an app to find toilets in Montréal. The app is fully responsive and can be installed as a standard PWA (Progressive Web App).",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
+        img: "https://toogreen.ca/cv/img/websites/loocal.png"
     },
     {
         id: -14,
@@ -45,7 +45,7 @@ const ProjectsDb = [
         name: "loocal.ca",
         url: "https://loocal.ca",
         desc: "Projet d’appli codée avec Copilot pour trouver des toilettes à Montréal. L’appli est entièrement responsive et peut être installée comme une Appli standard PWA (Progressive Web App).",
-        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
+        img: "https://toogreen.ca/cv/img/websites/loocal.png"
     },
     {
         id: -13,
