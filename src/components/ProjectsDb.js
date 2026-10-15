@@ -4,7 +4,7 @@ const ProjectsDb = [
         lang: "en",
         name: "Jill Vidal demo promo site",
         url: "https://toogreen.ca/jill-vidal/",
-        desc: "Experiment with Claude AI to create a demo promo site for Jill Vidal, a singer-songwriter from Montreal. The site is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        desc: "Experiment with Claude AI to create a demo promo site for Jill Vidal, a singer-songwriter from Montreal. The site is fully responsive.",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
     },
     {
@@ -12,7 +12,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "Site promo démo Jill Vidal",
         url: "https://toogreen.ca/jill-vidal/",
-        desc: "Expérimentation avec Claude AI pour créer un site promo démo pour Jill Vidal, une auteure-compositrice-interprète de Montréal. Le site est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        desc: "Expérimentation avec Claude AI pour créer un site promo démo pour Jill Vidal, une auteure-compositrice-interprète de Montréal. Le site est entièrement responsive.",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-13.04.22.png"
     },
     {
@@ -20,7 +20,7 @@ const ProjectsDb = [
         lang: "en",
         name: "chifan.ca",
         url: "https://chifan.ca",
-        desc: "Copilot + Claude AI assisted project for an app to find Chinese authentic restaurants in Montreal. The app is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        desc: "Copilot + Claude AI assisted project for an app to find Chinese authentic restaurants in Montreal. The app is fully responsive and can be installed as a standard PWA (Progressive Web App).",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
     },
     {
@@ -28,7 +28,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "chifan.ca",
         url: "https://chifan.ca",
-        desc: "Projet assisté par Copilot + Claude AI pour une application de recherche de restaurants chinois authentiques à Montréal. L'application est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        desc: "Projet assisté par Copilot + Claude AI pour une application de recherche de restaurants chinois authentiques à Montréal. L'application est entièrement responsive et installable comme une Appli standard PWA (Progressive Web App).",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/IMG_1005-2000x1100.jpeg"
     },
     {
@@ -36,7 +36,7 @@ const ProjectsDb = [
         lang: "en",
         name: "loocal.ca",
         url: "https://loocal.ca",
-        desc: "Copilot assisted project for an app to find toilets in Montréal. The app is fully responsive and uses React.js, Redux, Node.js, Express.js and MongoDB as backend.",
+        desc: "Copilot assisted project for an app to find toilets in Montréal. The app is fully responsive and can be installed as a standard PWA (Progressive Web App).",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
     },
     {
@@ -44,7 +44,7 @@ const ProjectsDb = [
         lang: "fr",
         name: "loocal.ca",
         url: "https://loocal.ca",
-        desc: "Projet d’appli codée avec Copilot pour trouver des toilettes à Montréal. L’appli est entièrement responsive et utilise React.js, Redux, Node.js, Express.js et MongoDB comme backend.",
+        desc: "Projet d’appli codée avec Copilot pour trouver des toilettes à Montréal. L’appli est entièrement responsive et peut être installée comme une Appli standard PWA (Progressive Web App).",
         img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-23.43.33.png"
     },
     {
