@@ -291,14 +291,14 @@ class Main extends Component {
 
                     </div>
                 
-                    <div className="container">
+                   {/*  <div className="container">
                         <p className="conclusion">
                            <RenderTXT
                                 data={this.state}
                                 itemName="conclusion"
                            />
                         </p>
-                    </div>
+                    </div> */}
                 </main>
                 <footer>
                     <div className="container">
