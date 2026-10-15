@@ -362,6 +362,32 @@ header {
 	border-top: 1px solid rgba(255, 255, 255, 0.16);
 }
 
+.hero-qr {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin-top: 14px;
+	padding-top: 14px;
+	border-top: 1px solid rgba(255, 255, 255, 0.16);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.hero-qr img {
+	width: 96px;
+	height: 96px;
+	padding: 6px;
+	background: #fff;
+	border-radius: 8px;
+	flex-shrink: 0;
+}
+
+.hero-qr small {
+	display: block;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
 /* ---------- Sections ---------- */
 
 .section {
@@ -784,6 +810,10 @@ footer p {
 		grid-template-columns: repeat(1, 1fr);
 	}
 
+	.hero-qr img {
+		display: none;
+	}
+
 	.conclusion {
 		padding: 28px 22px;
 		font-size: 1.15rem;
@@ -838,6 +868,16 @@ footer p {
 	.subsection, .gallery a, .logo-tile {
 		box-shadow: none;
 		break-inside: avoid;
+	}
+
+	.hero-qr {
+		border-top-color: #ccc;
+	}
+
+	.hero-qr img {
+		width: 2.5cm;
+		height: 2.5cm;
+		padding: 0;
 	}
 
 	.section {
