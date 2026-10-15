@@ -2,7 +2,7 @@ const ExperienceDb = [
         { 
             id: -1,
             lang: "en",
-            title: "fdp (Financière des professionnnels)",
+            title: "FDP Private Wealth Management",
             subtitle: "Feb. 2021 to Present",
             leftTitle: "Webmaster, administrator of web platforms and CSS/jQuery/HTML5 Developer. My responsibilities include:",
             leftList: "<li>Management of the corporate website and Client Portal</li><li>Primary contact with IT department for all web-related projects and liaising with vendors as required</li><li>Providing website metrics</li><li>Creating forms with online payments and connected to local databases</li><li>Developing custom Microsites</li>",
@@ -12,7 +12,7 @@ const ExperienceDb = [
         { 
             id: 0,
             lang: "fr",
-            title: "fdp (Financière des professionnnels)",
+            title: "FDP Gestion privée",
             subtitle: "Fév. 2021 à présent",
             leftTitle: "Webmestre, administrateur des plateformes web et développeur CSS/jQuery/HTML5. Mes responsabilitées incluent:",
             leftList: "<li>Maintien des sites corpo et du portail client</li><li>Premier contact avec le département des TIs pour tout projet relié au web et liaison avec les fournisseurs.</li><li>Analyse des données métriques</li><li>Création de formulaires avec paiement en ligne et connexion à bases de données internes</li><li>Développement de micro-sites</li>",
