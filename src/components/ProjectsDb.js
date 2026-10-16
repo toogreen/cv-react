@@ -318,6 +318,22 @@ const ProjectsDb = [
         url: "",
         desc: "Un site web que j'ai conçu en 2003 pour un ami photographe qui était aussi basé à Shanghai. Il avait besoin d'un site web pour se promouvoir et afficher son portfolio. La raison pour laquelle j'en fait mention est parce que c'est le tout premier site web avec lequel j'ai utilisé les technologies PHP and MySQL, ce qui lui permettait de mettre lui-même son site à jour (pour l'époque c'était pas mal). Encore une fois j'ai tout fait moi-même, de la numérisation des photos et films originaux, au design graphique et l'intégration du tout en HTML, PHP, MySQL, CSS et JavaScript. ",
         img: "https://toogreen.ca/cv/img/projects/phil.png"
+    },
+    {
+        id: 20,
+        lang: "en",
+        name: "Wonderful Earth",
+        url: "",
+        desc: "A very small and simple website I've built around 2004 which is quite simple but I was quite proud because I did all the graphic design as well as the coding",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/wonderful-earth-1-768x423.png"
+    },
+    {
+        id: 21,
+        lang: "fr",
+        name: "Wonderful Earth",
+        url: "",
+        desc: "Un petit site web que j'ai conçu vers 2004 qui est assez simple mais dont j'étais assez fier parce que j'ai fait tout le design graphique ainsi que le codage",
+        img: "https://toogreen.ca/blog/wp-content/uploads/2026/10/wonderful-earth-1-768x423.png"
     }
 ];
 

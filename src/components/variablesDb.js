@@ -63,7 +63,7 @@ const variablesDb =  [
     {
 		id: 14,
 		name:"conclusion-en",
-		value:"That's about it for now! Don't hesitate to reach out! Thanks."
+		value:"That's about it for now! Don't hesitate to a	reach out! Thanks."
 	},
     {
 		id: 15,
@@ -78,7 +78,7 @@ const variablesDb =  [
     {
 		id: 17,
 		name:"footer-text-fr",
-		value:"&copy; David Gagnon 2026 - Ce CV a été originalement codé à la main à l'aide du 'framework' <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>, amélioré plus tard avec l'IA"
+		value:"&copy; David Gagnon 2026 - Ce CV a été originalement entièrement codé à la main à l'aide du 'framework' <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>React.js</a>, amélioré plus tard avec l'IA"
     }
 ];
 export default variablesDb

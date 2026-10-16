@@ -290,14 +290,24 @@ class Main extends Component {
 
                     </div>
                 
-                   {/*  <div className="container">
-                        <p className="conclusion">
-                           <RenderTXT
-                                data={this.state}
-                                itemName="conclusion"
-                           />
-                        </p>
-                    </div> */}
+                    <div className="container">
+                        <section className="conclusion">
+                            <p className="conclusion-text">
+                                <RenderTXT
+                                    data={this.state}
+                                    itemName="conclusion"
+                                />
+                            </p>
+                            <div className="conclusion-actions">
+                                <a className="btn btn-primary" href="mailto:toogreen@gmail.com">
+                                    <span aria-hidden="true">✉</span> toogreen@gmail.com
+                                </a>
+                                <a className="btn btn-ghost no-print" href="#top">
+                                    <span aria-hidden="true">↑</span> {en ? "Back to top" : "Retour en haut"}
+                                </a>
+                            </div>
+                        </section>
+                    </div>
                 </main>
                 <footer>
                     <div className="container">
