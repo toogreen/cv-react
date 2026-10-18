@@ -51,7 +51,7 @@ const ProjectsDb = [
         id: -13,
         lang: "en",
         name: "www.fdpgp.ca/bernier-drolet",
-        url: "https://www.fdpgp.ca/bernier-drolet",
+        url: "https://toogreen.ca/blog/wp-content/uploads/2026/10/bernier-drolet.png",
         desc: "This is another responsive Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
         img: "https://toogreen.ca/cv/img/bernier-drolet.png"
     },
@@ -59,7 +59,7 @@ const ProjectsDb = [
         id: -12,
         lang: "fr",
         name: "www.fdpgp.ca/bernier-drolet",
-        url: "https://www.fdpgp.ca/bernier-drolet",
+        url: "https://toogreen.ca/blog/wp-content/uploads/2026/10/bernier-drolet.png",
         desc: "Un autre microsite responsive que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
         img: "https://toogreen.ca/cv/img/bernier-drolet.png"
     },
@@ -67,7 +67,7 @@ const ProjectsDb = [
         id: -11,
         lang: "en",
         name: "www.fdpgp.ca/hhs",
-        url: "https://www.fdpgp.ca/hhs/?lang=en",
+        url: "https://toogreen.ca/blog/wp-content/uploads/2026/10/HHS.png",
         desc: "This is a fully responsive Microsite I created for fdp. Everything was coded by hand in HTML, CSS and JavaScript",
         img: "https://toogreen.ca/cv/img/hhs-en.png"
     },
@@ -75,7 +75,7 @@ const ProjectsDb = [
         id: -10,
         lang: "fr",
         name: "www.fdpgp.ca/hhs",
-        url: "https://www.fdpgp.ca/hhs",
+        url: "https://toogreen.ca/blog/wp-content/uploads/2026/10/HHS.png",
         desc: "Un microsite responsive que j'ai créé pour fdp. Tout a été codé à la main en HTML, CSS et JavaScript",
         img: "https://toogreen.ca/cv/img/hhs-fr.png"
     },
