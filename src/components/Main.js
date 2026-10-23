@@ -174,7 +174,7 @@ class Main extends Component {
 
                             <div className="hero-contact">
                                 <a className="hero-qr" href="https://toogreen.ca" target="_blank" rel="noopener noreferrer">
-                                    <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src="https://toogreen.ca/cv/img/toogreen-qr.png" />
+                                    <img alt={en ? "QR code to toogreen.ca" : "Code QR vers toogreen.ca"} src={`${process.env.PUBLIC_URL}/img/qr-code-toogreen-ca.png`} />
                                 </a>
                             </div>
                         </div>
