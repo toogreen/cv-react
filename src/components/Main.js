@@ -255,8 +255,8 @@ class Main extends Component {
                                     itemName="websites"
                                 />
                                 {" "}
-                                <a href="https://www.behance.net/gallery/4606221/Portfolio?iframe=1%3Fiframe%3D1" target="_blank" rel="noopener noreferrer">
-                                    {en ? "View on Behance →" : "Voir sur Behance →"}
+                                <a href="https://toogreen.ca/blog/index.php/portfolio/" target="_blank" rel="noopener noreferrer">
+                                    {en ? "View Full Portfolio →" : "Voir portfolio complet →"}
                                 </a>
                             </p>
 
